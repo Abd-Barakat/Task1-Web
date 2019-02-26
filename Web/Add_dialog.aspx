@@ -26,8 +26,8 @@
             width: 480px;
             height: 60px;
             position: absolute;
-            top: 15px;
-            left: 10px;
+            top: 65px;
+            left: 13px;
             z-index: 1;
             font-size: larger;
         }
@@ -82,6 +82,20 @@
         .auto-style36 {
             text-align: left;
         }
+        .auto-style37 {
+            position: absolute;
+            top: 466px;
+            left: 711px;
+            z-index: 1;
+            width: 74px;
+        }
+        .auto-style38 {
+            position: absolute;
+            top: 467px;
+            left: 711px;
+            z-index: 1;
+            width: 88px;
+        }
     </style>
 </head>
 <body>
@@ -90,7 +104,7 @@
         <div class="auto-style36">
        
         <asp:Panel ID="Panel1" runat="server" CssClass="auto-style3" GroupingText="Question type">
-            <asp:RadioButtonList ID="Question_types" runat="server" CssClass="auto-style4" AutoPostBack="True" OnSelectedIndexChanged="Question_types_SelectedIndexChanged">
+            <asp:RadioButtonList ID="Question_types" runat="server" CssClass="auto-style4" OnSelectedIndexChanged="Question_types_SelectedIndexChanged" AutoPostBack="True" >
                 <asp:ListItem>Slider</asp:ListItem>
                 <asp:ListItem>Smiley</asp:ListItem>
                 <asp:ListItem>Stars</asp:ListItem>
@@ -101,13 +115,8 @@
             <br />
             <br />
         </asp:Panel>
-        <asp:GridView ID="GridView1" runat="server" CssClass="auto-style5"  ShowHeaderWhenEmpty="True" CellPadding="4" ForeColor="#333333" GridLines="None"   HeaderStyle-Width ="160px"  HeaderStyle-Height="16px" >
+        <asp:GridView ID="GridView1" runat="server" CssClass="auto-style5"  ShowHeaderWhenEmpty="True" CellPadding="4" ForeColor="#333333" GridLines="None"   HeaderStyle-Width ="160px"  HeaderStyle-Height="16px" OnRowCreated="GridView1_RowCreated"  >
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
-            <Columns>
-               <asp:BoundField HeaderText ="Question text" ReadOnly ="true"   HeaderStyle-Font-Size="12pt"/>
-                <asp:BoundField HeaderText="Question order" ReadOnly="True"  HeaderStyle-Font-Size="12pt" />
-                <asp:BoundField HeaderText="Question type" ReadOnly="True"  HeaderStyle-Font-Size="12pt"/>
-            </Columns>
             <EditRowStyle BackColor="#999999" />
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
@@ -158,10 +167,13 @@
                 &nbsp;</p>
         </div>
        
+    <p>
+        <asp:Button ID="CloseButton" runat="server" CssClass="auto-style38" height="26px" OnClick="CloseButton_Click" Text="Close" Visible="False" width="74px" />
+        </p>
+    <p>
+        <asp:Button ID="SaveButton" runat="server" CssClass="auto-style37" OnClick="Save_Click" Text="Save" />
+        </p>
+       
     </form>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-</body>
+    </body>
 </html>

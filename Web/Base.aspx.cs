@@ -12,6 +12,7 @@ namespace Web
     {
         protected readonly string[] Tables = new string[] { "questions", "Slider", "Smiley", "Stars" };
         public Question q;
+
         protected DBclass DB = new DBclass();
 
 
@@ -19,8 +20,7 @@ namespace Web
         protected abstract bool isEmpty(TextBox box);//this function check the passed textbox if contain default value or it's empty 
         protected abstract void Save_Click(object sender, EventArgs e);//event handler for click event on save button 
         protected abstract void Reset();//reset values and then call Make_Empty method to print them in textboxes
-
-
+       
         public void Make_boxes_Empty()//call Make_Empty method to all textboxes
         {
             if (q.Question_type == "Slider")
@@ -108,7 +108,7 @@ namespace Web
                         q.Question_text = questionTextbox.Text;//validate user input 
                         if (q.Question_text == "")
                         {
-                            alert("Questions  shouldn't  contain any punctuation  mark");
+                            Alert("Questions  shouldn't  contain any punctuation  mark");
                             return false;
                         }
                     }
@@ -117,7 +117,7 @@ namespace Web
                 }
                 catch (FormatException)
                 {
-                    alert("Questions  shouldn't  contain number");
+                    Alert("Questions  shouldn't  contain number");
                     return false;
                 }
             }
@@ -142,7 +142,7 @@ namespace Web
                         }
                         catch (FormatException)
                         {
-                            alert("Start value should be integer number");
+                            Alert("Start value should be integer number");
                             return false;
                         }
                     }
@@ -160,7 +160,7 @@ namespace Web
                         }
                         catch (FormatException)
                         {
-                            alert("End value should be integer number");
+                            Alert("End value should be integer number");
                             return false;
                         }
                     }
@@ -178,7 +178,7 @@ namespace Web
                         }
                         catch (FormatException)
                         {
-                            alert("Start caption should be integer number");
+                            Alert("Start caption should be integer number");
                             return false;
                         }
                     }
@@ -196,7 +196,7 @@ namespace Web
                         }
                         catch (FormatException)
                         {
-                            alert("End caption should be integer number"); 
+                            Alert("End caption should be integer number"); 
                             return false;
                         }
                     }
@@ -220,7 +220,7 @@ namespace Web
                     }
                     catch (FormatException)
                     {
-                        alert("Number of Smiles should be integer number");
+                        Alert("Number of Smiles should be integer number");
                         return false;
                     }
                 }
@@ -244,7 +244,7 @@ namespace Web
                     }
                     catch (FormatException)
                     {
-                        alert("Number of Stars should be integer");
+                        Alert("Number of Stars should be integer");
                         return false;
                     }
                 }
@@ -255,7 +255,7 @@ namespace Web
             return true;
         }
 
-        public bool check(List<int> Values)//this function check if entered values are correct and within thier ranges 
+        public bool Check(List<int> Values)//this function check if entered values are correct and within thier ranges 
         {
             if (!Values_Changes(Values))//if no values entered then no need to check 
             {
@@ -265,7 +265,7 @@ namespace Web
 
         }
 
-        protected void alert(string Message)
+        protected void Alert(string Message)
         {
             Response.Write("<script> alert('"+Message +"') </script>");
         }

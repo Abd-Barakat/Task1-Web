@@ -8,15 +8,22 @@ using Questions;
 using DataBase;
 using System.IO;
 using System.Data;
+using System.Threading;
 namespace Web
 {
     public partial class Add_dialog : Base
     {
-        protected void Page_Load(object sender, EventArgs e)
+
+
+        protected void Page_Init(object sender, EventArgs e)
         {
-            GridView1.DataSource = new string[] { };
-            GridView1.DataBind();
+            if (!IsPostBack)
+            {
+                GridView1.DataSource = DB.question_table().Clone();
+                GridView1.DataBind();
+            }
         }
+    
         protected void relese(Question q)
         {
             if (q != null)//to avoid null refrence exception
@@ -38,6 +45,7 @@ namespace Web
 
                     q = new Slider();//create slider object
                     q.Question_order = DB.Max_order() + 1;//sign qustion_order property to next_order field
+                    ViewState["q"] = q;
                     Question_types.Items[0].Selected = true;//set check property of Slider radio button to true
 
                     Make_boxes_Empty();
@@ -51,6 +59,7 @@ namespace Web
 
                     q = new Smiley();//create smiley object
                     q.Question_order = DB.Max_order() + 1;//sign qustion_order property to next_order field
+                    ViewState["q"] = q;
                     Question_types.Items[1].Selected = true;//set check property of Smiley radio button to true
 
                     Make_boxes_Empty();
@@ -64,22 +73,28 @@ namespace Web
 
                     q = new Stars();//create star object
                     q.Question_order = DB.Max_order() + 1;//sign qustion_order property to next_order field
+                    ViewState["q"] = q;
+
                     Question_types.Items[2].Selected = true;//set check property of Stars radio button to true
 
                     Make_boxes_Empty();
 
                     break;
+                default:
+                    Alert("No Selection !");
+                    break;
             }
-             Response.Write("<script> alert('q=" + q.Default_values().ElementAt(0) + "') </script>");
             Make_Empty(questionTextbox);
         }
         protected override void Reset() //to reset default values of smiley ,slider and star questions in case invalid input entered
         {
+            q = (Question)ViewState["q"];
             q.Reset_values();//call reset values method in Questions class
             Make_boxes_Empty();//call method that clear all textboxes
         }
         protected override bool isEmpty(TextBox box)//this method to check if text box is contain default value or not 
         {
+            q = (Question)ViewState["q"];
             if (ReferenceEquals(box, questionTextbox))
             {
                 if (questionTextbox.Text == "Write a question here ...")
@@ -142,6 +157,7 @@ namespace Web
         }
         protected override void Make_Empty(TextBox box)
         {
+            q = (Question)ViewState["q"];
             if (ReferenceEquals(box, questionTextbox))
             {
                 questionTextbox.ForeColor = System.Drawing.Color.Gray;
@@ -192,65 +208,86 @@ namespace Web
         }
         protected override void Save_Click(object sender, EventArgs e)//click event hanlder for save button
         {
-            if (check(q.Current_values()))//call method check in Base class that check question's values if they are correct or not 
+            q = (Question)ViewState["q"];
+
+            if (q != null)
             {
-                if (!questionTextbox.Text.Any(char.IsDigit) && !isEmpty(questionTextbox))//check question textbox if contain invalid inputs or default text
+                if (Check(q.Current_values()))//call method check in Base class that check question's values if they are correct or not 
                 {
-                    int Groupbox_index = Question_types.SelectedIndex;//return index of selected control in GroupBox
-
-                    if (Groupbox_index != -1)//if no control selected in GroupBox
+                    if (!questionTextbox.Text.Any(char.IsDigit) && !isEmpty(questionTextbox))//check question textbox if contain invalid inputs or default text
                     {
+                        int Groupbox_index = Question_types.SelectedIndex;//return index of selected control in GroupBox
+                        if (Groupbox_index != -1)//if no control selected in GroupBox
+                        {
 
-                        try
-                        {
-                            DataTable temp = new DataTable();
-                            
-                            GridView1.Rows[0].Cells[0].Text = questionTextbox.Text;//fill data grid view with question text
-                            GridView1.Rows[0].Cells[1].Text = q.Question_order.ToString();//fill data grid view with question order
-                            GridView1.Rows[0].Cells[2].Text = Tables[Groupbox_index + 1];//fill data grid view with question type
-                            DB.Insert(Groupbox_index, Tables, q);//call Insert method in DBclass to insert the new question into database
-                            Response.Write("<script> alert('Done!!');window.close(); </script>");
-                        }
-                        catch (Exception ex)
-                        {
-                            alert(ex.Message);
-                            using (StreamWriter stream = new StreamWriter(@"C: \Users\a.barakat\source\repos\Task1\Error.txt", true))//save errors in Error.txt file
+                            try
                             {
-                                stream.WriteLine("-------------------------------------------------------------------\n");
-                                stream.WriteLine("Date :" + DateTime.Now.ToLocalTime());
-                                while (ex != null)
+                                DB.Insert(Groupbox_index, Tables, q);//call Insert method in DBclass to insert the new question into database
+                                DataTable temp = DB.question_table().Clone();
+                                DataRow row = temp.NewRow();
+
+                                row[0] = questionTextbox.Text;
+                                row[1] = q.Question_order.ToString();
+                                row[2] = Tables[Groupbox_index + 1];
+                                temp.Rows.Add(row);
+                                
+                                
+                                GridView1.DataSource = temp;
+                                GridView1.DataBind();
+                                Alert("Done!!");
+                            }
+                            catch (Exception ex)
+                            {
+                                Alert(ex.Message);
+                                using (StreamWriter stream = new StreamWriter(@"C: \Users\a.barakat\source\repos\Task1\Error.txt", true))//save errors in Error.txt file
                                 {
+                                    stream.WriteLine("-------------------------------------------------------------------\n");
+                                    stream.WriteLine("Date :" + DateTime.Now.ToLocalTime());
+                                    while (ex != null)
+                                    {
 
-                                    stream.WriteLine("Message :\n" + ex.Message);
-                                    stream.WriteLine("Stack trace :\n" + ex.StackTrace);
-
-                                    ex = ex.InnerException;
+                                        stream.WriteLine("Message :\n" + ex.Message);
+                                        stream.WriteLine("Stack trace :\n" + ex.StackTrace);
+                                        ex = ex.InnerException;
+                                    }
                                 }
                             }
-                          //  FORM.Visible = false;//hide add_dialog form 
+
                         }
+                        else
+                            Alert("Please select question type ");//if no question type is selected 
+
 
                     }
-                    else
-                        alert("Please select question type ");//if no question type is selected 
-
-
+                    else if (isEmpty(questionTextbox) || questionTextbox.Text == "")//if question textbox is empty or contain default value
+                    {
+                        questionTextbox.Text = "";
+                        Alert("Please Write a question  ");
+                    }
+                    else if (questionTextbox.Text.Any(char.IsDigit))//if question textbox  contain a number in it
+                    {
+                        questionTextbox.Text = "";
+                        Alert("Please Write a question without numbers   ");
+                    }
                 }
-                else if (isEmpty(questionTextbox) || questionTextbox.Text == "")//if question textbox is empty or contain default value
-                {
-                    questionTextbox.Text = "";
-                    alert("Please Write a question  ");
-                }
-                else if (questionTextbox.Text.Any(char.IsDigit))//if question textbox  contain a number in it
-                {
-                    questionTextbox.Text = "";
-                    alert("Please Write a question without numbers   ");
-                }
-
             }
+            else
+                Alert("NO question");
 
         }
 
+        protected void CloseButton_Click(object sender, EventArgs e)
+        {
+           Response.Write("<script> window.close(); </script>");
+        }
 
+        protected void GridView1_RowCreated(object sender, GridViewRowEventArgs e)
+        {
+            if (GridView1.Rows.Count == 1)
+            {
+                CloseButton.Visible = true;
+                SaveButton.Visible = false;
+            }
+        }
     }
 }
