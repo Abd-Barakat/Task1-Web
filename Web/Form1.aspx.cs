@@ -14,21 +14,15 @@ namespace Web
         private DBclass db = new DBclass();
         protected void Page_Init(object sender, EventArgs e)
         {
-            
             GridView1.DataSource = db.load();
             GridView1.DataBind();
         }
 
         protected void AddButton_Click(object sender, EventArgs e)
         {
-          //  Base add_Dialog = new Base();
             Response.Write("<script>");
             Response.Write("window.open('Add_dialog.aspx','_blank',false)");
             Response.Write("</script>");
-
-
-
-
         }
        
     }

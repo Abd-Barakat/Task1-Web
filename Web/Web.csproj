@@ -105,6 +105,7 @@
     <Compile Include="Edit_dialog.aspx.designer.cs">
       <DependentUpon>Edit_dialog.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EmptyException.cs" />
     <Compile Include="Form1.aspx.cs">
       <DependentUpon>Form1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

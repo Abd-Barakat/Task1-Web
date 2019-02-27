@@ -1,0 +1,1700 @@
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:35 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:36 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:37 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:37 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:37 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:37 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:37 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:37 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:38 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:38 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:38 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:38 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:38 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:38 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:38 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:39 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:39 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:18:39 AM
+Message :
+Start Caption should be lower than End caption
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 211
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 259
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:19:00 AM
+Message :
+Start value should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 125
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:19:05 AM
+Message :
+End value should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 148
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:19:12 AM
+Message :
+Start caption should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 168
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:19:16 AM
+Message :
+End caption should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 188
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:20:14 AM
+Message :
+please write a question
+Stack trace :
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 88
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:26:55 AM
+Message :
+Start caption should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 168
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:28:30 AM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 210
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:31:00 AM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 258
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:31:03 AM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 258
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:31:15 AM
+Message :
+Start value should be lower than Start caption 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 258
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:45:28 AM
+Message :
+Start value should be lower than Start caption 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 275
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:45:35 AM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 275
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:45:49 AM
+Message :
+Start value should be lower than Start caption 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 275
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:45:50 AM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 275
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:45:50 AM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 275
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:45:50 AM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 275
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:46:01 AM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 275
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:46:02 AM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 275
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:46:09 AM
+Message :
+Start value should be lower than Start caption 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 275
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:48:48 AM
+Message :
+Start value should be lower than Start caption 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 275
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:57:21 AM
+Message :
+Start value should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 115
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:57:27 AM
+Message :
+End value should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 134
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:57:35 AM
+Message :
+Start caption should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 154
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:57:45 AM
+Message :
+End caption should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 174
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:57:50 AM
+Message :
+End Caption should be Lower than End value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 217
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 266
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:57:50 AM
+Message :
+End Caption should be Lower than End value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 217
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 266
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:58:47 AM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 11:58:49 AM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:00:20 PM
+Message :
+Start value should be lower than Start caption 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:00:42 PM
+Message :
+please write a question
+Stack trace :
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 37
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:01:01 PM
+Message :
+Start value should be lower than Start caption 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:01:02 PM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:01:02 PM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:01:02 PM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:01:08 PM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:01:09 PM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:01:09 PM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:01:09 PM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:01:10 PM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:02:42 PM
+Message :
+Start value should be lower than Start caption 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:02:46 PM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:02:49 PM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:02:51 PM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:03:13 PM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:04:49 PM
+Message :
+Start value should be lower than Start caption 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:05:30 PM
+Message :
+Start value should be lower than Start caption 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:05:45 PM
+Message :
+Start value should be lower than end value 
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:06:02 PM
+Message :
+Start Caption should be lower than End value
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 206
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:14:57 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 0 
+Start caption =100
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:16:21 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 0 
+Start caption =100
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 199
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:17:57 PM
+Message :
+Start value should be lower than End value where:
+Start = 0 
+End =100
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 194
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:23:04 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 225
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:30:45 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:31:38 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:31:45 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:35:16 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:35:18 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:39:46 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:39:52 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:39:58 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:46:18 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:49:13 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:49:57 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:50:02 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:50:39 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:50:52 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:54:47 PM
+Message :
+Number of stars  should be between 0-10
+Parameter name: Stars
+Stack trace :
+   at Questions.Stars.set_Star(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 316
+   at Questions.Stars.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 363
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 193
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:54:49 PM
+Message :
+Number of stars  should be between 0-10
+Parameter name: Stars
+Stack trace :
+   at Questions.Stars.set_Star(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 316
+   at Questions.Stars.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 363
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 193
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:54:49 PM
+Message :
+Number of stars  should be between 0-10
+Parameter name: Stars
+Stack trace :
+   at Questions.Stars.set_Star(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 316
+   at Questions.Stars.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 363
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 193
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:56:21 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 50 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:56:36 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 80 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:59:35 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 12:59:37 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:00:12 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 50 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:01:17 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:01:45 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 23 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:04:26 PM
+Message :
+Start value should be lower than Start caption where:\nStart = 20 \nStart caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:04:32 PM
+Message :
+Start value should be lower than Start caption where:\nStart = 20 \nStart caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:05:04 PM
+Message :
+Start value should be lower than Start caption where:\nStart = 20 \nStart caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:05:56 PM
+Message :
+Start value should be lower than Start caption where:\nStart = 20 \nStart caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:06:08 PM
+Message :
+Start value should be lower than Start caption where:\nStart = 20 \nStart caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:06:40 PM
+Message :
+Start value should be between 0-100
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.set_Start(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 93
+   at Questions.Slider.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 181
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 148
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:06:47 PM
+Message :
+Start value should be lower than Start caption where:\nStart = 20 \nStart caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:06:59 PM
+Message :
+Start value should be between 0-100
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.set_Start(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 93
+   at Questions.Slider.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 181
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 148
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:11:24 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:14:14 PM
+Message :
+Start value should be lower than Start caption where:
+Start = 20 
+Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:15:39 PM
+Message :
+Start value should be between 0-100
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.set_Start(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 93
+   at Questions.Slider.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 181
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 148
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:16:12 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:18:26 PM
+Message :
+Start value should be lower than Start caption where:Start = 30 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:18:46 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:18:47 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:18:48 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:20:28 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:21:17 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:21:19 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:21:19 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:21:20 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:23:28 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:23:49 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:23:51 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:23:51 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:24:17 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:24:18 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:24:18 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:24:53 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:25:10 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:26:09 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:26:35 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:26:58 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:27:26 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:28:25 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:28:39 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:29:29 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:29:30 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:29:30 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:29:30 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:29:31 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:29:31 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:29:33 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:29:34 PM
+Message :
+Start value should be lower than Start caption where:Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:30:42 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:33:32 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:33:48 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:35:08 PM
+Message :
+Start value should be lower than Start caption where:Start = 21 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:37:00 PM
+Message :
+Start value should be lower than Start caption where:Start = 24 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:39:21 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:40:39 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:41:22 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:42:01 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:42:02 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:42:02 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:42:20 PM
+Message :
+Start value should be lower than Start caption where:Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:43:16 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:43:42 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:43:57 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:44:18 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:44:38 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:44:56 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:45:20 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:46:29 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:46:50 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:47:04 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:47:51 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:48:04 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:48:37 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:48:50 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:51:09 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:53:35 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:54:26 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 1:54:46 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:15:56 PM
+Message :
+Start value should be between 0-100
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.set_Start(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 93
+   at Questions.Slider.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 181
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 148
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:16:45 PM
+Message :
+Start value should be lower than Start caption where Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:16:56 PM
+Message :
+Start value should be between 0-100
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.set_Start(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 93
+   at Questions.Slider.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 181
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 148
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:16:58 PM
+Message :
+Start value should be between 0-100
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.set_Start(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 93
+   at Questions.Slider.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 181
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 148
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:16:58 PM
+Message :
+Start value should be between 0-100
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.set_Start(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 93
+   at Questions.Slider.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 181
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 148
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:16:58 PM
+Message :
+Start value should be between 0-100
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.set_Start(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 93
+   at Questions.Slider.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 181
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 148
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:19:42 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:19:43 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:19:43 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:19:43 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:20:21 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:20:25 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:20:28 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224

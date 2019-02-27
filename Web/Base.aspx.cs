@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Questions;
 using DataBase;
+using System.IO;
 namespace Web
 {
     public abstract partial class Base : System.Web.UI.Page
@@ -16,258 +17,241 @@ namespace Web
         protected DBclass DB = new DBclass();
 
 
-        protected abstract void Make_Empty(TextBox box);//this function to fill each  textboxes in the dialog with default values 
         protected abstract bool isEmpty(TextBox box);//this function check the passed textbox if contain default value or it's empty 
         protected abstract void Save_Click(object sender, EventArgs e);//event handler for click event on save button 
-        protected abstract void Reset();//reset values and then call Make_Empty method to print them in textboxes
-       
-        public void Make_boxes_Empty()//call Make_Empty method to all textboxes
+
+
+        public void Check_punctuation(string text)
         {
-            if (q.Question_type == "Slider")
-            {
-                Make_Empty(StartTextbox);
-                Make_Empty(EndTextbox);
-                Make_Empty(Start_captionTextbox);
-                Make_Empty(End_captionTextbox);
-            }
-            if (q.Question_type == "Smiley")
-            {
-                Make_Empty(StartTextbox);
-            }
-            if (q.Question_type == "Stars")
-            {
-                Make_Empty(StartTextbox);
-            }
-        }
-
-        protected void TextChanged(object sender, EventArgs e)//event handler to change color or each text in textboxes in dialog and make them Empty 
-        {
-            if (ReferenceEquals(sender, questionTextbox))
-            {
-                if (isEmpty(questionTextbox))
-                {
-                    questionTextbox.Text = "";
-                    questionTextbox.ForeColor = System.Drawing.Color.Black;
-                }
-            }
-            else if (ReferenceEquals(sender, StartTextbox))
-            {
-                if (isEmpty(StartTextbox))
-                {
-                    StartTextbox.Text = "";
-                    StartTextbox.ForeColor = System.Drawing.Color.Black;
-                }
-
-            }
-            else if (ReferenceEquals(sender, EndTextbox))
-            {
-                if (isEmpty(EndTextbox))
-                {
-                    EndTextbox.Text = "";
-
-                    EndTextbox.ForeColor = System.Drawing.Color.Black;
-                }
-
-            }
-            else if (ReferenceEquals(sender, Start_captionTextbox))
-            {
-                if (isEmpty(Start_captionTextbox))
-                {
-                    Start_captionTextbox.Text = "";
-                    Start_captionTextbox.ForeColor = System.Drawing.Color.Black;
-                }
-
-            }
-            else if (ReferenceEquals(sender, End_captionTextbox))
-            {
-                if (isEmpty(End_captionTextbox))
-                {
-                    End_captionTextbox.Text = "";
-                    End_captionTextbox.ForeColor = System.Drawing.Color.Black;
-                }
-
-            }
-
-
+            if (text.Any(char.IsPunctuation))
+                throw new PunctuationException();
         }
 
         protected bool Values_Changes(List<int> Values)//check if values are changed or not 
         {
-
-            if (questionTextbox.Text == "")
+            try
             {
-                Make_Empty(questionTextbox);
-
-            }
-            else
-            {
-                try
+                if (questionTextbox.Text == "")
                 {
-                    if (!isEmpty(questionTextbox))
-                    {
-                        q.Question_text = questionTextbox.Text;//validate user input 
-                        if (q.Question_text == "")
-                        {
-                            Alert("Questions  shouldn't  contain any punctuation  mark");
-                            return false;
-                        }
-                    }
-                    q.Question_text = questionTextbox.Text;//validate user input 
-
+                    throw new EmptyException();
                 }
-                catch (FormatException)
-                {
-                    Alert("Questions  shouldn't  contain number");
-                    return false;
-                }
-            }
-
-            if (q.Question_type == "Slider")
-            {
-                {
-                    if (StartTextbox.Text == "")
-                    {
-                        Make_Empty(StartTextbox);
-                    }
-                    else
-                    {
-                        try
-                        {
-                            if (!isEmpty(StartTextbox))
-                            {
-
-                                Values[0] = Int32.Parse(StartTextbox.Text);//validate user input 
-                            }
-
-                        }
-                        catch (FormatException)
-                        {
-                            Alert("Start value should be integer number");
-                            return false;
-                        }
-                    }
-                    if (EndTextbox.Text == "")
-                    {
-                        Make_Empty(EndTextbox);
-                    }
-                    else
-                    {
-                        try
-                        {
-                            if (!isEmpty(EndTextbox))
-                                Values[1] = Int32.Parse(EndTextbox.Text);
-
-                        }
-                        catch (FormatException)
-                        {
-                            Alert("End value should be integer number");
-                            return false;
-                        }
-                    }
-                    if (Start_captionTextbox.Text == "")
-                    {
-                        Make_Empty(Start_captionTextbox);
-                    }
-                    else
-                    {
-                        try
-                        {
-                            if (!isEmpty(Start_captionTextbox))
-                                Values[2] = Int32.Parse(Start_captionTextbox.Text);
-
-                        }
-                        catch (FormatException)
-                        {
-                            Alert("Start caption should be integer number");
-                            return false;
-                        }
-                    }
-                    if (EndTextbox.Text == "")
-                    {
-
-                        Make_Empty(EndTextbox);
-                    }
-                    else
-                    {
-                        try
-                        {
-                            if (!isEmpty(EndTextbox))
-                                Values[3] = Int32.Parse(EndTextbox.Text);
-                        }
-                        catch (FormatException)
-                        {
-                            Alert("End caption should be integer number"); 
-                            return false;
-                        }
-                    }
-                }
-                q.Set_values(Values);
-            }
-            else if (q.Question_type == "Smiley")
-            {
-
-                if (StartTextbox.Text == "")
-                {
-                    Make_Empty(StartTextbox);
-                }
-
                 else
                 {
                     try
                     {
-                        if (!isEmpty(StartTextbox))
-                            Values[0] = Int32.Parse(StartTextbox.Text);
+                        q.Question_text = questionTextbox.Text;//validate user input 
+                        Check_punctuation(q.Question_text);
                     }
-                    catch (FormatException)
+                    catch (PunctuationException ex)
                     {
-                        Alert("Number of Smiles should be integer number");
+                        Alert(ex.Message, ex);
                         return false;
                     }
+                    catch (FormatException ex)
+                    {
+                        Alert("Questions  shouldn't  contain number", ex);
+                        return false;
+                    }
+
                 }
-                q.Set_values(Values);
+            }
+            catch (EmptyException ex)
+            {
+                Alert(ex.Message, ex);
+                return false;
+            }
+
+
+
+            if (q.Question_type == "Slider")
+            {
+                try
+                {
+                    if (!isEmpty(StartTextbox))
+                    {
+                        Check_punctuation(StartTextbox.Text);
+                        Values[0] = Int32.Parse(StartTextbox.Text);//validate user input 
+                    }
+                }
+                catch (FormatException ex)
+                {
+                    Alert("Start value should be integer number", ex);
+                    return false;
+                }
+                catch (PunctuationException ex)
+                {
+                    Alert(ex.Message, ex);
+                    return false;
+                }
+
+                try
+                {
+                    if (!isEmpty(EndTextbox))
+                    {
+                        Check_punctuation(EndTextbox.Text);
+                        Values[1] = Int32.Parse(EndTextbox.Text);
+                    }
+                }
+                catch (FormatException ex)
+                {
+                    Alert("End value should be integer number", ex);
+                    return false;
+                }
+                catch (PunctuationException ex)
+                {
+                    Alert(ex.Message, ex);
+                    return false;
+                }
+
+
+                try
+                {
+                    if (!isEmpty(Start_captionTextbox))
+                    {
+                        Check_punctuation(Start_captionTextbox.Text);
+                        Values[2] = Int32.Parse(Start_captionTextbox.Text);
+                    }
+                }
+                catch (FormatException ex)
+                {
+                    Alert("Start caption should be integer number", ex);
+                    return false;
+                }
+                catch (PunctuationException ex)
+                {
+                    Alert(ex.Message, ex);
+                    return false;
+                }
+
+
+                try
+                {
+                    if (!isEmpty(End_captionTextbox))
+                    {
+                        Check_punctuation(End_captionTextbox.Text);
+                        Values[3] = Int32.Parse(End_captionTextbox.Text);
+                    }
+                }
+                catch (FormatException ex)
+                {
+                    Alert("End caption should be integer number", ex);
+                    return false;
+                }
+                catch (PunctuationException ex)
+                {
+                    Alert(ex.Message, ex);
+                    return false;
+                }
+
+                try
+                {
+                    q.Set_values(Values);
+                }
+                catch (ArgumentOutOfRangeException ex)
+                {
+                    Alert(ex.Message, ex);
+                    return false;
+                }
+
+            }
+            else if (q.Question_type == "Smiley")
+            {
+                try
+                {
+                    if (!isEmpty(StartTextbox))
+                    {
+                        Check_punctuation(StartTextbox.Text);
+                        Values[0] = Int32.Parse(StartTextbox.Text);
+                        q.Set_values(Values);
+                    }
+                }
+                catch (FormatException ex)
+                {
+                    Alert("Number of Smiles should be integer number", ex);
+                    return false;
+                }
+                catch (PunctuationException ex)
+                {
+                    Alert(ex.Message, ex);
+                    return false;
+                }
+                catch (ArgumentOutOfRangeException ex)
+                {
+                    Alert(ex.Message, ex);
+                    return false;
+                }
 
             }
             else if (q.Question_type == "Stars")
             {
-
-                if (StartTextbox.Text == "")
+                try
                 {
-                    Make_Empty(StartTextbox);
-                }
-                else
-                {
-                    try
+                    if (!isEmpty(StartTextbox))
                     {
-                        if (!isEmpty(StartTextbox))
-                            Values[0] = Int32.Parse(StartTextbox.Text);
-
-                    }
-                    catch (FormatException)
-                    {
-                        Alert("Number of Stars should be integer");
-                        return false;
+                        Check_punctuation(StartTextbox.Text);
+                        Values[0] = Int32.Parse(StartTextbox.Text);
+                        q.Set_values(Values);
                     }
                 }
-                q.Set_values(Values);
+                catch (FormatException ex)
+                {
 
+                    Alert("Number of Stars should be integer", ex);
+                    return false;
+                }
+                catch (PunctuationException ex)
+                {
+                    Alert(ex.Message, ex);
+                    return false;
+                }
+                catch (ArgumentOutOfRangeException ex)
+                {
+                    Alert(ex.Message, ex);
+                    return false;
+                }
             }
-
             return true;
         }
 
         public bool Check(List<int> Values)//this function check if entered values are correct and within thier ranges 
         {
-            if (!Values_Changes(Values))//if no values entered then no need to check 
+            if (!Values_Changes(Values))//check if values changed or not 
             {
                 return false;
             }
-            return q.Validate();
-
+            try
+            {
+                return q.Validate();
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                Alert(ex.Message, ex, false);
+                return false;
+            }
         }
 
+        protected void Alert(string Message, Exception ex, bool validation = true)
+        {
+            if (validation == false)
+                Response.Write("<script> alert('Values are not valid\\nCheck Error.txt file') </script>");
+            else
+            Response.Write("<script > alert('" + ex.Message + "') ;</script>");
+            using (StreamWriter stream = new StreamWriter(@"C: \Users\a.barakat\source\repos\Task1-Web\Error.txt", true))//save errors in Error.txt file
+            {
+                stream.WriteLine("-------------------------------------------------------------------\n");
+                stream.WriteLine("Date :" + DateTime.Now.ToLocalTime());
+                while (ex != null)
+                {
+                    stream.WriteLine("Message :\n" + Message);
+                    stream.WriteLine("Stack trace :\n" + ex.StackTrace);
+                    ex = ex.InnerException;
+                }
+            }
+        }
         protected void Alert(string Message)
         {
-            Response.Write("<script> alert('"+Message +"') </script>");
+            Response.Write("<script> alert('" + Message + "') </script>");
         }
+
     }
 }

@@ -93,9 +93,33 @@
         <asp:GridView ID="GridView1" runat="server" CssClass="auto-style5"  ShowHeaderWhenEmpty="True" CellPadding="4" ForeColor="#333333" GridLines="None"   HeaderStyle-Width ="160px"  HeaderStyle-Height="16px" >
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
-               <asp:BoundField HeaderText ="Question text" ReadOnly ="true"   HeaderStyle-Font-Size="12pt"/>
-                <asp:BoundField HeaderText="Question order" ReadOnly="True"  HeaderStyle-Font-Size="12pt" />
-                <asp:BoundField HeaderText="Question type" ReadOnly="True"  HeaderStyle-Font-Size="12pt"/>
+                <asp:TemplateField HeaderText="Question text">
+                    <EditItemTemplate>
+                        <asp:Label ID="Label1" runat="server"></asp:Label>
+                    </EditItemTemplate>
+                    <ItemTemplate>
+                        <asp:Label ID="Label1" runat="server"></asp:Label>
+                    </ItemTemplate>
+                    <HeaderStyle Font-Size="12pt" />
+                </asp:TemplateField>
+                <asp:TemplateField HeaderText="Question order">
+                    <EditItemTemplate>
+                        <asp:Label ID="Label2" runat="server"></asp:Label>
+                    </EditItemTemplate>
+                    <ItemTemplate>
+                        <asp:Label ID="Label2" runat="server"></asp:Label>
+                    </ItemTemplate>
+                    <HeaderStyle Font-Size="12pt" />
+                </asp:TemplateField>
+                <asp:TemplateField HeaderText="Question type">
+                    <EditItemTemplate>
+                        <asp:Label ID="Label3" runat="server"></asp:Label>
+                    </EditItemTemplate>
+                    <ItemTemplate>
+                        <asp:Label ID="Label3" runat="server"></asp:Label>
+                    </ItemTemplate>
+                    <HeaderStyle Font-Size="12pt" />
+                </asp:TemplateField>
             </Columns>
             <EditRowStyle BackColor="#999999" />
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
@@ -130,16 +154,16 @@
             <table class="auto-style34" align="left" style="z-index: 1">
                 <tr>
                     <td class="auto-style35">
-                        <asp:TextBox ID="StartTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;" Visible ="false"    OnTextChanged="TextChanged" AutoPostBack="true" Onclick ="TextChanged"></asp:TextBox>
+                        <asp:TextBox ID="StartTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;" Visible ="false"   AutoPostBack="true"></asp:TextBox>
                     </td>
                     <td class="auto-style19">
-                        <asp:TextBox ID="EndTextbox" runat="server" CssClass="we"  Visible ="false"  AutoPostBack="true"  OnTextChanged="TextChanged" Onclick ="TextChanged"></asp:TextBox>
+                        <asp:TextBox ID="EndTextbox" runat="server" CssClass="we"  Visible ="false"  AutoPostBack="true"  ></asp:TextBox>
                     </td>
                     <td class="auto-style19">
-                        <asp:TextBox ID="Start_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;"  Visible ="false"   OnTextChanged="TextChanged" AutoPostBack="true"  Onclick ="TextChanged"></asp:TextBox>
+                        <asp:TextBox ID="Start_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;"  Visible ="false"    AutoPostBack="true"  ></asp:TextBox>
                     </td>
                     <td class="auto-style19">
-                        <asp:TextBox ID="End_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;"  Visible ="false"  OnTextChanged="TextChanged" AutoPostBack="true" Onclick ="TextChanged"></asp:TextBox>
+                        <asp:TextBox ID="End_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;"  Visible ="false" AutoPostBack="true" ></asp:TextBox>
                     </td>
                 </tr>
             </table>
