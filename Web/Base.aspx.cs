@@ -20,7 +20,13 @@ namespace Web
         protected abstract bool isEmpty(TextBox box);//this function check the passed textbox if contain default value or it's empty 
         protected abstract void Save_Click(object sender, EventArgs e);//event handler for click event on save button 
 
-
+        public void Check_number(string text)
+        {
+            if (text.Any(char.IsDigit))
+            {
+                throw new ContainNumberException();
+            }
+        }
         public void Check_punctuation(string text)
         {
             if (text.Any(char.IsPunctuation))
@@ -41,17 +47,19 @@ namespace Web
                     {
                         q.Question_text = questionTextbox.Text;//validate user input 
                         Check_punctuation(q.Question_text);
+                        Check_number(q.Question_text);
                     }
                     catch (PunctuationException ex)
                     {
                         Alert(ex.Message, ex);
                         return false;
                     }
-                    catch (FormatException ex)
+                    catch (ContainNumberException ex)
                     {
-                        Alert("Questions  shouldn't  contain number", ex);
+                        Alert(ex.Message, ex,false);
                         return false;
                     }
+                    
 
                 }
             }
@@ -149,7 +157,7 @@ namespace Web
                 }
                 catch (ArgumentOutOfRangeException ex)
                 {
-                    Alert(ex.Message, ex);
+                    Alert(ex.Message, ex,false);
                     return false;
                 }
 
@@ -177,7 +185,7 @@ namespace Web
                 }
                 catch (ArgumentOutOfRangeException ex)
                 {
-                    Alert(ex.Message, ex);
+                    Alert(ex.Message, ex,false);
                     return false;
                 }
 
@@ -206,7 +214,7 @@ namespace Web
                 }
                 catch (ArgumentOutOfRangeException ex)
                 {
-                    Alert(ex.Message, ex);
+                    Alert(ex.Message, ex,false);
                     return false;
                 }
             }
@@ -235,7 +243,7 @@ namespace Web
             if (validation == false)
                 Response.Write("<script> alert('Values are not valid\\nCheck Error.txt file') </script>");
             else
-            Response.Write("<script > alert('" + ex.Message + "') ;</script>");
+            Response.Write("<script > alert('" + Message + "') ;</script>");
             using (StreamWriter stream = new StreamWriter(@"C: \Users\a.barakat\source\repos\Task1-Web\Error.txt", true))//save errors in Error.txt file
             {
                 stream.WriteLine("-------------------------------------------------------------------\n");

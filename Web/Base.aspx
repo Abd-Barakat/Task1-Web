@@ -88,7 +88,8 @@
     <form id="form1" runat="server">
        
         <div class="auto-style36">
-       
+       <asp:HiddenField ID="Hidden" runat="server" value="" />
+
         
         <asp:GridView ID="GridView1" runat="server" CssClass="auto-style5"  ShowHeaderWhenEmpty="True" CellPadding="4" ForeColor="#333333" GridLines="None"   HeaderStyle-Width ="160px"  HeaderStyle-Height="16px" >
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />

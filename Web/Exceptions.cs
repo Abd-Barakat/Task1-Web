@@ -28,4 +28,15 @@ namespace Web
 
         }
     }
+    public class ContainNumberException:Exception
+    {
+        public ContainNumberException ():base ("questions  shouldn't  contain number ")
+        {
+
+        }
+        public ContainNumberException(string Message,Exception ex):base("questions  shouldn't  contain number",ex)
+        {
+
+        }
+    }
 }

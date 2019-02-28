@@ -1698,3 +1698,244 @@ Parameter name: Slider
 Stack trace :
    at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
    at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 2:30:18 PM
+Message :
+Start value should be lower than Start caption where Start = 20 Start caption =20
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 224
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:10:21 PM
+Message :
+Number of stars  should be between 0-10
+Parameter name: Stars
+Stack trace :
+   at Questions.Stars.set_Star(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 316
+   at Questions.Stars.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 363
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 193
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:11:54 PM
+Message :
+Number of stars  should be between 0-10
+Parameter name: Stars
+Stack trace :
+   at Questions.Stars.set_Star(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 316
+   at Questions.Stars.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 363
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 193
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:14:18 PM
+Message :
+please write a question
+Stack trace :
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 36
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:14:23 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:14:28 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:14:36 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:14:40 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:14:58 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:15:04 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:15:12 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:16:32 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:16:52 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:17:25 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:17:53 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:18:53 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:19:03 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:20:31 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 164
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:23:18 PM
+Message :
+Number of Smiles  should be between 2-5
+Parameter name: Smiles
+Stack trace :
+   at Questions.Smiley.set_Faces(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 253
+   at Questions.Smiley.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 284
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 165
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:23:28 PM
+Message :
+Number of stars  should be between 0-10
+Parameter name: Stars
+Stack trace :
+   at Questions.Stars.set_Star(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 316
+   at Questions.Stars.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 363
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 193
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:23:53 PM
+Message :
+please write a question
+Stack trace :
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 36
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:23:59 PM
+Message :
+please write a question
+Stack trace :
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 36
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:24:06 PM
+Message :
+please write a question
+Stack trace :
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 36
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:32:06 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Base.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 27
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 50
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:32:10 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Base.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 27
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 50
+-------------------------------------------------------------------
+
+Date :2/27/2019 3:32:46 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Base.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 27
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 50

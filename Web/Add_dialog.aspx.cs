@@ -84,7 +84,7 @@ namespace Web
                     break;
             }
         }
-       
+
         protected override bool isEmpty(TextBox box)//this method to check if text box is contain default value or not 
         {
             q = (Question)ViewState["q"];
@@ -108,7 +108,7 @@ namespace Web
                 }
                 else if (ReferenceEquals(box, EndTextbox))
                 {
-                    if (EndTextbox.Text =="")
+                    if (EndTextbox.Text == "")
                         return true;
                     else
                         return false;
@@ -122,13 +122,13 @@ namespace Web
                 }
                 else
                 {
-                    if (End_captionTextbox.Text =="")
+                    if (End_captionTextbox.Text == "")
                         return true;
                     else
                         return false;
                 }
             }
-            else if (q.Question_type == "Smiles")
+            else if (q.Question_type == "Smiley")
             {
 
                 if (StartTextbox.Text == "")
@@ -148,58 +148,40 @@ namespace Web
                 return false;
 
         }
-      
+
         protected override void Save_Click(object sender, EventArgs e)//click event hanlder for save button
         {
             q = (Question)ViewState["q"];
 
             if (Check(q.Current_values()))//call method check in Base class that check question's values if they are correct or not 
             {
-                if (!questionTextbox.Text.Any(char.IsDigit) && !isEmpty(questionTextbox))//check question textbox if contain invalid inputs or default text
+
+                int Groupbox_index = Question_types.SelectedIndex;//return index of selected control in GroupBox
+                if (Groupbox_index == 0 || Groupbox_index == 1 || Groupbox_index == 2)//if no control selected in GroupBox
                 {
-                    int Groupbox_index = Question_types.SelectedIndex;//return index of selected control in GroupBox
-                    if (Groupbox_index ==0 || Groupbox_index == 1|| Groupbox_index ==2 )//if no control selected in GroupBox
+                    try
                     {
+                        DB.Insert(Groupbox_index, Tables, q);//call Insert method in DBclass to insert the new question into database
+                        DataTable temp = DB.question_table().Clone();
+                        DataRow row = temp.NewRow();
 
-                        try
-                        {
-                            DB.Insert(Groupbox_index, Tables, q);//call Insert method in DBclass to insert the new question into database
-                            DataTable temp = DB.question_table().Clone();
-                            DataRow row = temp.NewRow();
-
-                            row[0] = questionTextbox.Text;
-                            row[1] = q.Question_order.ToString();
-                            row[2] = Tables[Groupbox_index + 1];
-                            temp.Rows.Add(row);
+                        row[0] = questionTextbox.Text;
+                        row[1] = q.Question_order.ToString();
+                        row[2] = Tables[Groupbox_index + 1];
+                        temp.Rows.Add(row);
 
 
-                            GridView1.DataSource = temp;
-                            GridView1.DataBind();
-                            Alert("Done!!");
-                        }
-                        catch (Exception ex)
-                        {
-                            Alert(ex.Message,ex);
-                            using (StreamWriter stream = new StreamWriter(@"C: \Users\a.barakat\source\repos\Task1\Error.txt", true))//save errors in Error.txt file
-                            {
-                                stream.WriteLine("-------------------------------------------------------------------\n");
-                                stream.WriteLine("Date :" + DateTime.Now.ToLocalTime());
-                                while (ex != null)
-                                {
-
-                                    stream.WriteLine("Message :\n" + ex.Message);
-                                    stream.WriteLine("Stack trace :\n" + ex.StackTrace);
-                                    ex = ex.InnerException;
-                                }
-                            }
-                        }
-
+                        GridView1.DataSource = temp;
+                        GridView1.DataBind();
+                        Alert("Done!!");
                     }
-                    else
-                        Alert("Please select question type ");//if no question type is selected 
-
-
+                    catch (Exception ex)
+                    {
+                        Alert(ex.Message, ex);
+                    }
                 }
+                else
+                    Alert("Please select question type ");//if no question type is selected 
             }
             else
             {
@@ -207,21 +189,15 @@ namespace Web
             }
         }
 
-        protected void CloseButton_Click(object sender, EventArgs e)
-        {
-            Response.Write("<script> window.close(); </script>");
-        }
 
         protected void GridView1_RowCreated(object sender, GridViewRowEventArgs e)
         {
             if (GridView1.Rows.Count == 1)
             {
-                CloseButton.Visible = true;
-                CloseButton.Focus();
                 SaveButton.Visible = false;
+                SaveButton.Enabled = false;
             }
         }
 
-        
     }
 }

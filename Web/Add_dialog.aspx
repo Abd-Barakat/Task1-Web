@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Add_dialog.aspx.cs" Inherits="Web.Add_dialog" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Add_dialog.aspx.cs" Inherits="Web.Add_dialog"  %>
 
 <!DOCTYPE html>
 
@@ -24,11 +24,11 @@
         }
         .auto-style5 {
             width: 480px;
-            height: 60px;
+            height: 70px;
             position: absolute;
-            top: 65px;
-            left: 13px;
-            z-index: 1;
+            top: 95px;
+            left: 33px;
+            z-index: 3;
             font-size: larger;
         }
         .auto-style24 {
@@ -90,17 +90,18 @@
             z-index: 1;
             width: 74px;
         }
-        .auto-style38 {
+        .auto-style41 {
             position: absolute;
-            top: 467px;
-            left: 711px;
-            z-index: 1;
-            width: 88px;
+            width: 839px;
+            height: 19px;
+            top: 509px;
+            left: 10px;
+            z-index: 2;
         }
-    </style>
+        </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="Add_form" runat="server" >
        
         <div class="auto-style36">
        
@@ -116,15 +117,35 @@
             <br />
             <br />
         </asp:Panel>
-        <asp:GridView ID="GridView1" runat="server" CssClass="auto-style5"  ShowHeaderWhenEmpty="True" CellPadding="4" ForeColor="#333333" GridLines="None"   HeaderStyle-Width ="160px"  HeaderStyle-Height="16px" OnRowCreated="GridView1_RowCreated"  >
+        <asp:GridView ID="GridView1" runat="server" CssClass="auto-style5"  ShowHeaderWhenEmpty="True" CellPadding="4" ForeColor="#333333" GridLines="None"   HeaderStyle-Width ="160px"  HeaderStyle-Height="16px" OnRowCreated="GridView1_RowCreated" AutoGenerateColumns="False"  >
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
-                <asp:TemplateField></asp:TemplateField>
+                <asp:TemplateField HeaderText="Question text">
+                    <ItemTemplate>
+                        <asp:Label ID="Label1" runat="server" CssClass="auto-style42" style="z-index: 1" Text='<%# Eval("question_text") %>'></asp:Label>
+                    </ItemTemplate>
+                </asp:TemplateField>
+                <asp:TemplateField HeaderText="Question order">
+                    <ItemTemplate>
+                        <asp:Label ID="Label2" runat="server" CssClass="auto-style42" style="z-index: 1" Text='<%# Eval("question_order") %>'></asp:Label>
+                    </ItemTemplate>
+                </asp:TemplateField>
+                <asp:TemplateField HeaderText="Question type">
+                    <ItemTemplate>
+                        <asp:Label ID="Label3" runat="server" CssClass="auto-style42" style="z-index: 1" Text='<%# Eval("question_type") %>'></asp:Label>
+                    </ItemTemplate>
+                </asp:TemplateField>
             </Columns>
             <EditRowStyle BackColor="#999999" />
+            <EmptyDataTemplate>
+                <br />
+            </EmptyDataTemplate>
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
             <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+            <PagerTemplate>
+                <asp:Label ID="Label5" runat="server" CssClass="auto-style42" style="z-index: 1" Text="Label"></asp:Label>
+            </PagerTemplate>
             <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
             <SelectedRowStyle BackColor="#E2DED6" Font-Bold="true" ForeColor="#333333" />
             <SortedAscendingCellStyle BackColor="#E9E7E2" />
@@ -172,12 +193,27 @@
         </div>
        
     <p>
-        <asp:Button ID="CloseButton" runat="server" CssClass="auto-style38" height="26px" OnClick="CloseButton_Click" Text="Close" Visible="False" width="74px" TabIndex="7" />
-        </p>
-    <p>
+          
+            <input id="CloseButton"    height="26px"  Visible="False" width="74px" TabIndex="7" onclick="RefreshParent()" type="button" value="Close" class="auto-style37" /></p>
+        <p>
+            &nbsp;</p>
+        <p class="auto-style41">
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+    
+        <script  type="text/javascript">
+            function RefreshParent() {
+                if (window.opener != null && !window.opener.closed)
+                    window.opener.location.reload();
+                window.close();
+            }
+        </script>
+        <p>
         <asp:Button ID="SaveButton" runat="server" CssClass="auto-style37" OnClick="Save_Click" Text="Save" TabIndex="6" Visible="False" />
-        </p>
-       
-    </form>
+          
+            &nbsp;</form>
     </body>
 </html>

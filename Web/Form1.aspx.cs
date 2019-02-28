@@ -12,18 +12,21 @@ namespace Web
     public partial class Form1 : System.Web.UI.Page
     {
         private DBclass db = new DBclass();
-        protected void Page_Init(object sender, EventArgs e)
+        public int Row_index=-1;
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            GridView1.DataBind();
+        }
+
+        protected void GridView1_Load(object sender, EventArgs e)
         {
             GridView1.DataSource = db.load();
             GridView1.DataBind();
         }
 
-        protected void AddButton_Click(object sender, EventArgs e)
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Response.Write("<script>");
-            Response.Write("window.open('Add_dialog.aspx','_blank',false)");
-            Response.Write("</script>");
+            Row_index = GridView1.SelectedIndex;
         }
-       
     }
 }

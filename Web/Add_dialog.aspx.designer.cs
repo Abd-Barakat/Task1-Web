@@ -13,6 +13,15 @@ namespace Web {
     public partial class Add_dialog {
         
         /// <summary>
+        /// Add_form control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm Add_form;
+        
+        /// <summary>
         /// Question_typePanel control.
         /// </summary>
         /// <remarks>
@@ -29,15 +38,6 @@ namespace Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList Question_types;
-        
-        /// <summary>
-        /// CloseButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CloseButton;
         
         /// <summary>
         /// SaveButton control.
