@@ -62,27 +62,27 @@
         .auto-style19 {
             width: 195px;
             height: 23px;
-            color: #C0C0C0;
+            color: #000000;
         }
         .auto-style36 {
             text-align: left;
         }
         .auto-style38 {
             position: absolute;
-            top: 455px;
-            left: 702px;
+            top: 457px;
+            left: 706px;
             z-index: 1;
             width: 74px;
             height: 26px;
         }
         .auto-style39 {
-            text-align: left;
+            text-align: center;
             position: absolute;
-            top: 455px;
-            left: 702px;
+            top: 457px;
+            left: 706px;
             z-index: 1;
             width: 74px;
-            right: 102px;
+            right: 15px;
         }
     </style>
 </head>
@@ -90,10 +90,8 @@
     <form id="form1" runat="server">
        
         <div class="auto-style36">
-       <asp:HiddenField ID="Hidden" runat="server" value="" />
 
-        
-        <asp:GridView ID="GridView1" runat="server" CssClass="auto-style5"  ShowHeaderWhenEmpty="True" CellPadding="4" ForeColor="#333333" GridLines="None"   HeaderStyle-Width ="160px"  HeaderStyle-Height="16px" AutoGenerateColumns="False" >
+            <asp:GridView ID="GridView1" runat="server" CssClass="auto-style5"  ShowHeaderWhenEmpty="True" CellPadding="4" ForeColor="#333333" GridLines="None"   HeaderStyle-Width ="160px"  HeaderStyle-Height="16px" AutoGenerateColumns="False">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
                 <asp:TemplateField HeaderText="Question text">
@@ -103,7 +101,7 @@
                     <ItemTemplate>
                         <asp:Label ID="Label1" runat="server" Text='<%# Eval("question_text") %>'></asp:Label>
                     </ItemTemplate>
-                    <HeaderStyle Font-Size="12pt" />
+                    <HeaderStyle Font-Size="12pt" HorizontalAlign="Left" />
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Question order">
                     <EditItemTemplate>
@@ -112,7 +110,7 @@
                     <ItemTemplate>
                         <asp:Label ID="Label2" runat="server" Text='<%# Eval("question_order") %>'></asp:Label>
                     </ItemTemplate>
-                    <HeaderStyle Font-Size="12pt" />
+                    <HeaderStyle Font-Size="12pt" HorizontalAlign="Left" />
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Question type">
                     <EditItemTemplate>
@@ -121,7 +119,7 @@
                     <ItemTemplate>
                         <asp:Label ID="Label3" runat="server" Text='<%# Eval("question_type") %>'></asp:Label>
                     </ItemTemplate>
-                    <HeaderStyle Font-Size="12pt" />
+                    <HeaderStyle Font-Size="12pt" HorizontalAlign="Left" />
                 </asp:TemplateField>
             </Columns>
             <EditRowStyle BackColor="#999999" />
@@ -144,7 +142,7 @@
         <p>
             &nbsp;</p>
         <p>
-            <asp:TextBox ID="questionTextbox" runat="server" CssClass="auto-style24"></asp:TextBox>
+            <asp:TextBox ID="questionTextbox" runat="server"  CssClass="auto-style24"></asp:TextBox>
         </p>
         <p>
             &nbsp;</p>
@@ -157,16 +155,16 @@
             <table class="auto-style34" align="left">
                 <tr>
                     <td class="auto-style35">
-                        <asp:TextBox ID="StartTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;" Visible ="false"></asp:TextBox>
+                        <asp:TextBox ID="StartTextbox" runat="server" CssClass="we" style="z-index: 1; color: #000000;"></asp:TextBox>
                     </td>
                     <td class="auto-style19">
                         <asp:TextBox ID="EndTextbox" runat="server" CssClass="we"  Visible ="false"  ></asp:TextBox>
                     </td>
                     <td class="auto-style19">
-                        <asp:TextBox ID="Start_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;"  Visible ="false"  ></asp:TextBox>
+                        <asp:TextBox ID="Start_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #000000;"  Visible ="false"  ></asp:TextBox>
                     </td>
                     <td class="auto-style19">
-                        <asp:TextBox ID="End_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;"  Visible ="false" ></asp:TextBox>
+                        <asp:TextBox ID="End_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #000000;"  Visible ="false" ></asp:TextBox>
                     </td>
                 </tr>
             </table>
@@ -174,13 +172,21 @@
                 &nbsp;
 
             </p>
+             <script  type="text/javascript">
+            function RefreshParent() {
+                if (window.opener != null && !window.opener.closed)
+                    window.opener.location.replace("Form1.aspx");
+                window.close();
+                 }
+                 var visablilty =<%=Visablilty %>
+        </script>
             <p>
                 &nbsp;</p>
             <p>
                 &nbsp;</p>
-                    <asp:Button ID="SaveButton" runat="server" CssClass="auto-style39" OnClick="Save_Click" Text="Save" TabIndex="6" Visible="False" />
+                    <asp:Button ID="SaveButton" runat="server" CssClass="auto-style39" OnClick="Save_Click" Text="Save" TabIndex="6" />
 
-                        <input id="CloseButton"    height="26px"  Visible="False" width="74px" TabIndex="7" onclick="RefreshParent()" type="button" value="Close" class="auto-style38"  aria-hidden="true" />
+                        <input id="CloseButton"    type="button"  onclick="RefreshParent()" value="Close" style="display:none" class="auto-style38"   />
           
 
 

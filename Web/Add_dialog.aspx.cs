@@ -24,7 +24,7 @@ namespace Web
             }
         }
 
-        protected void relese(Question q)
+        protected void Release(Question q)
         {
             if (q != null)//to avoid null refrence exception
             {
@@ -33,7 +33,7 @@ namespace Web
         }
         protected void Question_types_SelectedIndexChanged(object sender, EventArgs e)
         {
-            relese(q);//call method release that release  q object if refere to another object 
+            Release(q);//call method release that release  q object if refere to another object 
             switch (Question_types.SelectedIndex)
             {
                 case 0://if slider radio button 
@@ -45,8 +45,9 @@ namespace Web
 
                     q = new Slider();//create slider object
                     q.Question_order = DB.Max_order() + 1;//sign qustion_order property to next_order field
-                    SaveButton.Visible = true;
                     ViewState["q"] = q;
+
+                    SaveButton.Visible = true;
                     Question_types.Items[0].Selected = true;//set check property of Slider radio button to true
 
                     break;
@@ -59,8 +60,10 @@ namespace Web
 
                     q = new Smiley();//create smiley object
                     q.Question_order = DB.Max_order() + 1;//sign qustion_order property to next_order field
-                    SaveButton.Visible = true;
                     ViewState["q"] = q;
+
+                    SaveButton.Visible = true;
+
                     Question_types.Items[1].Selected = true;//set check property of Smiley radio button to true
 
                     break;
@@ -72,8 +75,9 @@ namespace Web
                     StartTextbox.Visible = true;//make groupbox that contain above controls visible
                     q = new Stars();//create star object
                     q.Question_order = DB.Max_order() + 1;//sign qustion_order property to next_order field
-                    SaveButton.Visible = true;
                     ViewState["q"] = q;
+
+                    SaveButton.Visible = true;
 
                     Question_types.Items[2].Selected = true;//set check property of Stars radio button to true
 
@@ -189,13 +193,12 @@ namespace Web
             }
         }
 
-
         protected void GridView1_RowCreated(object sender, GridViewRowEventArgs e)
         {
             if (GridView1.Rows.Count == 1)
             {
-                SaveButton.Visible = false;
-                SaveButton.Enabled = false;
+                SaveButton.Visible = true;
+                SaveButton.Enabled = true;
             }
         }
 

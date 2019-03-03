@@ -27,6 +27,9 @@ namespace Web
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Row_index = GridView1.SelectedIndex;
+            Session["Order"] = Row_index.ToString();
         }
+
+        
     }
 }

@@ -77,7 +77,7 @@
         .auto-style19 {
             width: 195px;
             height: 23px;
-            color: #C0C0C0;
+            color: #000000;
         }
         .auto-style36 {
             text-align: left;
@@ -88,7 +88,6 @@
     <form id="form1" runat="server">
        
         <div class="auto-style36">
-       <asp:HiddenField ID="Hidden" runat="server" value="" />
 
         
         <asp:GridView ID="GridView1" runat="server" CssClass="auto-style5"  ShowHeaderWhenEmpty="True" CellPadding="4" ForeColor="#333333" GridLines="None"   HeaderStyle-Width ="160px"  HeaderStyle-Height="16px" >
@@ -155,16 +154,16 @@
             <table class="auto-style34" align="left" style="z-index: 1">
                 <tr>
                     <td class="auto-style35">
-                        <asp:TextBox ID="StartTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;" Visible ="false"   AutoPostBack="true"></asp:TextBox>
+                        <asp:TextBox ID="StartTextbox" runat="server" CssClass="we" style="z-index: 1; color: #000000;" Visible ="false"   AutoPostBack="true"></asp:TextBox>
                     </td>
                     <td class="auto-style19">
                         <asp:TextBox ID="EndTextbox" runat="server" CssClass="we"  Visible ="false"  AutoPostBack="true"  ></asp:TextBox>
                     </td>
                     <td class="auto-style19">
-                        <asp:TextBox ID="Start_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;"  Visible ="false"    AutoPostBack="true"  ></asp:TextBox>
+                        <asp:TextBox ID="Start_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #000000;"  Visible ="false"    AutoPostBack="true"  ></asp:TextBox>
                     </td>
                     <td class="auto-style19">
-                        <asp:TextBox ID="End_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #C0C0C0;"  Visible ="false" AutoPostBack="true" ></asp:TextBox>
+                        <asp:TextBox ID="End_captionTextbox" runat="server" CssClass="we" style="z-index: 1; color: #000000;"  Visible ="false" AutoPostBack="true" ></asp:TextBox>
                     </td>
                 </tr>
             </table>

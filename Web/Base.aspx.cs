@@ -33,7 +33,7 @@ namespace Web
                 throw new PunctuationException();
         }
 
-        protected bool Values_Changes(List<int> Values)//check if values are changed or not 
+        protected bool Change_Values(List<int> Values)//check if values are changed or not 
         {
             try
             {
@@ -223,7 +223,7 @@ namespace Web
 
         public bool Check(List<int> Values)//this function check if entered values are correct and within thier ranges 
         {
-            if (!Values_Changes(Values))//check if values changed or not 
+            if (!Change_Values(Values))//check if values changed (or not) correctly or not 
             {
                 return false;
             }

@@ -10,8 +10,8 @@
             width: 144px;
             height: 125px;
             position: absolute;
-            top: 62px;
-            left: 628px;
+            top: 95px;
+            left: 620px;
             z-index: 1;
         }
         .auto-style4 {
@@ -83,13 +83,6 @@
         .auto-style36 {
             text-align: left;
         }
-        .auto-style37 {
-            position: absolute;
-            top: 466px;
-            left: 711px;
-            z-index: 1;
-            width: 74px;
-        }
         .auto-style41 {
             position: absolute;
             width: 839px;
@@ -97,6 +90,13 @@
             top: 509px;
             left: 10px;
             z-index: 2;
+        }
+        .auto-style42 {
+            position: absolute;
+            top: 466px;
+            left: 706px;
+            z-index: 1;
+            width: 74px;
         }
         </style>
 </head>
@@ -124,16 +124,19 @@
                     <ItemTemplate>
                         <asp:Label ID="Label1" runat="server" CssClass="auto-style42" style="z-index: 1" Text='<%# Eval("question_text") %>'></asp:Label>
                     </ItemTemplate>
+                    <HeaderStyle HorizontalAlign="Left" />
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Question order">
                     <ItemTemplate>
                         <asp:Label ID="Label2" runat="server" CssClass="auto-style42" style="z-index: 1" Text='<%# Eval("question_order") %>'></asp:Label>
                     </ItemTemplate>
+                    <HeaderStyle HorizontalAlign="Left" />
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Question type">
                     <ItemTemplate>
                         <asp:Label ID="Label3" runat="server" CssClass="auto-style42" style="z-index: 1" Text='<%# Eval("question_type") %>'></asp:Label>
                     </ItemTemplate>
+                    <HeaderStyle HorizontalAlign="Left" />
                 </asp:TemplateField>
             </Columns>
             <EditRowStyle BackColor="#999999" />
@@ -162,7 +165,7 @@
         <p>
             &nbsp;</p>
         <p>
-            <asp:TextBox ID="questionTextbox" runat="server" CssClass="auto-style24" TabIndex="1"></asp:TextBox>
+            <asp:TextBox ID="questionTextbox" runat="server" CssClass="auto-style24" TabIndex="1" AutoPostBack="True"></asp:TextBox>
         </p>
         <p>
             &nbsp;</p>
@@ -194,7 +197,7 @@
        
     <p>
           
-            <input id="CloseButton"    height="26px"  Visible="False" width="74px" TabIndex="7" onclick="RefreshParent()" type="button" value="Close" class="auto-style37" /></p>
+            <input id="CloseButton"     onclick="RefreshParent()" type="button" value="Close" class="auto-style42" /></p>
         <p>
             &nbsp;</p>
         <p class="auto-style41">
@@ -212,7 +215,7 @@
             }
         </script>
         <p>
-        <asp:Button ID="SaveButton" runat="server" CssClass="auto-style37" OnClick="Save_Click" Text="Save" TabIndex="6" Visible="False" />
+        <asp:Button ID="SaveButton" runat="server" CssClass="auto-style42" OnClick="Save_Click" Text="Save" TabIndex="6" Visible="False" />
           
             &nbsp;</form>
     </body>

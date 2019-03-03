@@ -52,32 +52,53 @@
 <body>
     <form id="Main_form" runat="server" >
         <div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:HiddenField ID="OrderMain" runat="server"  />
+            <br />
         </div>
         <asp:Panel ID="Panel1" runat="server" CssClass="auto-style1" EnableTheming="True">
             <input id="AddButton" type="button" value="Add" class="auto-style7 " onclick="Add_dialog()" />
-            
+            <input type="hidden" id="Order" runat="server" />
             <script type="text/javascript">
                 function Add_dialog() {
                     window.open("Add_dialog.aspx", "_blank", false);
                 }
                 function Edit_dialog() {
-                    if (Row(index) != -1) {
-                        document.getElementById("Order").value = Row(index);
-                        var edit = window.open("Edit_dialog.aspx", "_blank", false);
-                    }
-                }
-                var Row = function Extract_Order(index) {
                     if (index != -1) {
-                        var table = document.getElementById('GridView1');
-                        var row = table.rows[index];
-                        var cell = row.cells[1];
-                        var order = cell.innerHTML.toString();
-                        alert(order);
-                        return order;
+                        var edit = window.open("Edit_dialog.aspx", "_blank", false);
+                        edit.document.getElementById("OrderEdit").value = document.getElementById("OrderMain").value;
                     }
                     else {
                         alert("No question selected !!");
-                        return -1;
                     }
                 }
                 var index =<%=Row_index%>;
@@ -115,7 +136,6 @@
             <SortedDescendingCellStyle BackColor="#FFFDF8" />
             <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:QuestionsConnectionString %>" SelectCommand="SELECT [question_text] FROM [questions]"></asp:SqlDataSource>
     </form>
 </body>
 </html>

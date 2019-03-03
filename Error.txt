@@ -1939,3 +1939,120 @@ questions  shouldn't  contain number
 Stack trace :
    at Web.Base.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 27
    at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 50
+-------------------------------------------------------------------
+
+Date :3/3/2019 9:16:08 AM
+Message :
+Number of Smiles  should be between 2-5
+Parameter name: Smiles
+Stack trace :
+   at Questions.Smiley.set_Faces(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 253
+   at Questions.Smiley.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 284
+   at Web.Base.Values_Changes(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 173
+-------------------------------------------------------------------
+
+Date :3/3/2019 9:54:08 AM
+Message :
+Number of Smiles  should be between 2-5
+Parameter name: Smiles
+Stack trace :
+   at Questions.Smiley.set_Faces(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 253
+   at Questions.Smiley.Set_values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 284
+   at Web.Base.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 173
+-------------------------------------------------------------------
+
+Date :3/3/2019 10:05:35 AM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.Edit_dialog.GridView1_Update() in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 180
+   at Web.Edit_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 23
+-------------------------------------------------------------------
+
+Date :3/3/2019 10:05:37 AM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.Edit_dialog.GridView1_Update() in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 180
+   at Web.Edit_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 23
+-------------------------------------------------------------------
+
+Date :3/3/2019 10:06:21 AM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.Edit_dialog.GridView1_Update(Question q) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 180
+   at Web.Edit_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 23
+-------------------------------------------------------------------
+
+Date :3/3/2019 10:06:22 AM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.Edit_dialog.GridView1_Update(Question q) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 180
+   at Web.Edit_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 23
+-------------------------------------------------------------------
+
+Date :3/3/2019 10:06:56 AM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.Edit_dialog.GridView1_Update(Question q) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 180
+   at Web.Edit_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 23
+-------------------------------------------------------------------
+
+Date :3/3/2019 10:08:10 AM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.Edit_dialog.GridView1_Update(Question q) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 180
+   at Web.Edit_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 23
+-------------------------------------------------------------------
+
+Date :3/3/2019 10:08:32 AM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.Edit_dialog.GridView1_Update(Question q) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 180
+   at Web.Edit_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 23
+-------------------------------------------------------------------
+
+Date :3/3/2019 10:09:17 AM
+Message :
+There is no row at position 0.
+Stack trace :
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Web.Edit_dialog.GridView1_Update(Question q) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 180
+   at Web.Edit_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 23
+-------------------------------------------------------------------
+
+Date :3/3/2019 10:09:19 AM
+Message :
+There is no row at position 0.
+Stack trace :
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Web.Edit_dialog.GridView1_Update(Question q) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 180
+   at Web.Edit_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 23
+-------------------------------------------------------------------
+
+Date :3/3/2019 10:23:14 AM
+Message :
+please write a question
+Stack trace :
+   at Web.Base.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 42
+-------------------------------------------------------------------
+
+Date :3/3/2019 10:54:19 AM
+Message :
+please write a question
+Stack trace :
+   at Web.Base.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 42
+-------------------------------------------------------------------
+
+Date :3/3/2019 11:09:39 AM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.Edit_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 27
