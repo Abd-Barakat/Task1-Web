@@ -2056,3 +2056,162 @@ Message :
 Object reference not set to an instance of an object.
 Stack trace :
    at Web.Edit_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Edit_dialog.aspx.cs:line 27
+-------------------------------------------------------------------
+
+Date :3/3/2019 12:38:18 PM
+Message :
+Violation of PRIMARY KEY constraint 'PK__question__0CED75A92F411378'. Cannot insert duplicate key in object 'dbo.questions'. The duplicate key value is (190).
+The statement has been terminated.
+Stack trace :
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataBase.DBclass.Insert(Int32 Groupbox_index, String[] Tables, Question q) in C:\Users\a.barakat\source\repos\Task1\DataBase\DBclass.cs:line 42
+   at Web.Add_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Add_dialog.aspx.cs:line 168
+-------------------------------------------------------------------
+
+Date :3/3/2019 12:47:27 PM
+Message :
+Violation of PRIMARY KEY constraint 'PK__question__0CED75A92F411378'. Cannot insert duplicate key in object 'dbo.questions'. The duplicate key value is (195).
+The statement has been terminated.
+Stack trace :
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataBase.DBclass.Insert(Int32 Groupbox_index, String[] Tables, Question q) in C:\Users\a.barakat\source\repos\Task1\DataBase\DBclass.cs:line 42
+   at Web.Add_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Add_dialog.aspx.cs:line 168
+-------------------------------------------------------------------
+
+Date :3/3/2019 12:47:28 PM
+Message :
+Violation of PRIMARY KEY constraint 'PK__question__0CED75A92F411378'. Cannot insert duplicate key in object 'dbo.questions'. The duplicate key value is (195).
+The statement has been terminated.
+Stack trace :
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataBase.DBclass.Insert(Int32 Groupbox_index, String[] Tables, Question q) in C:\Users\a.barakat\source\repos\Task1\DataBase\DBclass.cs:line 42
+   at Web.Add_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Add_dialog.aspx.cs:line 168
+-------------------------------------------------------------------
+
+Date :3/3/2019 12:47:28 PM
+Message :
+Violation of PRIMARY KEY constraint 'PK__question__0CED75A92F411378'. Cannot insert duplicate key in object 'dbo.questions'. The duplicate key value is (195).
+The statement has been terminated.
+Stack trace :
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataBase.DBclass.Insert(Int32 Groupbox_index, String[] Tables, Question q) in C:\Users\a.barakat\source\repos\Task1\DataBase\DBclass.cs:line 42
+   at Web.Add_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Add_dialog.aspx.cs:line 168
+-------------------------------------------------------------------
+
+Date :3/3/2019 12:47:28 PM
+Message :
+Violation of PRIMARY KEY constraint 'PK__question__0CED75A92F411378'. Cannot insert duplicate key in object 'dbo.questions'. The duplicate key value is (195).
+The statement has been terminated.
+Stack trace :
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataBase.DBclass.Insert(Int32 Groupbox_index, String[] Tables, Question q) in C:\Users\a.barakat\source\repos\Task1\DataBase\DBclass.cs:line 42
+   at Web.Add_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Add_dialog.aspx.cs:line 168
+-------------------------------------------------------------------
+
+Date :3/3/2019 12:47:36 PM
+Message :
+Violation of PRIMARY KEY constraint 'PK__question__0CED75A92F411378'. Cannot insert duplicate key in object 'dbo.questions'. The duplicate key value is (196).
+The statement has been terminated.
+Stack trace :
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataBase.DBclass.Insert(Int32 Groupbox_index, String[] Tables, Question q) in C:\Users\a.barakat\source\repos\Task1\DataBase\DBclass.cs:line 42
+   at Web.Add_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Add_dialog.aspx.cs:line 168
+-------------------------------------------------------------------
+
+Date :3/3/2019 12:48:44 PM
+Message :
+please write a question
+Stack trace :
+   at Web.Base.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 42
+-------------------------------------------------------------------
+
+Date :3/3/2019 2:59:32 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Base.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 27
+   at Web.Base.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 50
+-------------------------------------------------------------------
+
+Date :3/3/2019 2:59:38 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Base.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 27
+   at Web.Base.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 50
+-------------------------------------------------------------------
+
+Date :3/3/2019 2:59:44 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Base.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 27
+   at Web.Base.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 50
+-------------------------------------------------------------------
+
+Date :3/3/2019 3:12:25 PM
+Message :
+Violation of PRIMARY KEY constraint 'PK__question__0CED75A92F411378'. Cannot insert duplicate key in object 'dbo.questions'. The duplicate key value is (278).
+The statement has been terminated.
+Stack trace :
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataBase.DBclass.Insert(Int32 Groupbox_index, String[] Tables, Question q) in C:\Users\a.barakat\source\repos\Task1\DataBase\DBclass.cs:line 42
+   at Web.Add_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Add_dialog.aspx.cs:line 169
+-------------------------------------------------------------------
+
+Date :3/3/2019 3:12:28 PM
+Message :
+Violation of PRIMARY KEY constraint 'PK__question__0CED75A92F411378'. Cannot insert duplicate key in object 'dbo.questions'. The duplicate key value is (278).
+The statement has been terminated.
+Stack trace :
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataBase.DBclass.Insert(Int32 Groupbox_index, String[] Tables, Question q) in C:\Users\a.barakat\source\repos\Task1\DataBase\DBclass.cs:line 42
+   at Web.Add_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Add_dialog.aspx.cs:line 169

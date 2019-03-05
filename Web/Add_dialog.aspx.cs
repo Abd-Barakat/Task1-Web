@@ -5,7 +5,6 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Questions;
-using DataBase;
 using System.IO;
 using System.Data;
 using System.Threading;
@@ -33,6 +32,7 @@ namespace Web
         }
         protected void Question_types_SelectedIndexChanged(object sender, EventArgs e)
         {
+            questionTextbox.Visible = true;
             Release(q);//call method release that release  q object if refere to another object 
             switch (Question_types.SelectedIndex)
             {
@@ -174,6 +174,7 @@ namespace Web
                         row[2] = Tables[Groupbox_index + 1];
                         temp.Rows.Add(row);
 
+                        SaveButton.Visible = false;
 
                         GridView1.DataSource = temp;
                         GridView1.DataBind();
@@ -197,10 +198,10 @@ namespace Web
         {
             if (GridView1.Rows.Count == 1)
             {
-                SaveButton.Visible = true;
-                SaveButton.Enabled = true;
+                SaveButton.Enabled = false;
             }
         }
 
+       
     }
 }
