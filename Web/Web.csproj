@@ -44,12 +44,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DataBase">
-      <HintPath>..\..\Task1\DataBase\bin\Debug\DataBase.dll</HintPath>
+      <HintPath>resources\DataBase.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Questions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\DataBase\bin\Debug\Questions.dll</HintPath>
+      <HintPath>resources\Questions.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
