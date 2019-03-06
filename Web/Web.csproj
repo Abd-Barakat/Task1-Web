@@ -27,7 +27,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>true</Optimize>
+    <Optimize>false</Optimize>
     <OutputPath>bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=18.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.18.1.1\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="DataBase">
       <HintPath>resources\DataBase.dll</HintPath>
     </Reference>
@@ -75,7 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Add_dialog.aspx" />
-    <Content Include="Base.aspx" />
     <Content Include="Edit_dialog.aspx" />
     <Content Include="Form1.aspx" />
   </ItemGroup>
@@ -86,13 +88,6 @@
     </Compile>
     <Compile Include="Add_dialog.aspx.designer.cs">
       <DependentUpon>Add_dialog.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Base.aspx.cs">
-      <DependentUpon>Base.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Base.aspx.designer.cs">
-      <DependentUpon>Base.aspx</DependentUpon>
     </Compile>
     <Compile Include="Edit_dialog.aspx.cs">
       <DependentUpon>Edit_dialog.aspx</DependentUpon>
@@ -110,12 +105,20 @@
       <DependentUpon>Form1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Master_Page.Master.cs">
+      <DependentUpon>Master_Page.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master_Page.Master.designer.cs">
+      <DependentUpon>Master_Page.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Master_Page.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

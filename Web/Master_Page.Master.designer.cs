@@ -10,7 +10,7 @@
 namespace Web {
     
     
-    public partial class Base {
+    public partial class Master_Page {
         
         /// <summary>
         /// form1 control.
@@ -22,13 +22,22 @@ namespace Web {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// GridView1 control.
+        /// gridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.GridView gridView1;
+        
+        /// <summary>
+        /// RadioButtons control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder RadioButtons;
         
         /// <summary>
         /// questionTextbox control.
@@ -40,39 +49,48 @@ namespace Web {
         protected global::System.Web.UI.WebControls.TextBox questionTextbox;
         
         /// <summary>
-        /// StartTextbox control.
+        /// startTextbox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox StartTextbox;
+        protected global::System.Web.UI.WebControls.TextBox startTextbox;
         
         /// <summary>
-        /// EndTextbox control.
+        /// endTextbox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EndTextbox;
+        protected global::System.Web.UI.WebControls.TextBox endTextbox;
         
         /// <summary>
-        /// Start_captionTextbox control.
+        /// start_captionTextbox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Start_captionTextbox;
+        protected global::System.Web.UI.WebControls.TextBox start_captionTextbox;
         
         /// <summary>
-        /// End_captionTextbox control.
+        /// end_captionTextbox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox End_captionTextbox;
+        protected global::System.Web.UI.WebControls.TextBox end_captionTextbox;
+        
+        /// <summary>
+        /// SaveButtonPlaceHolder control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder SaveButtonPlaceHolder;
     }
 }

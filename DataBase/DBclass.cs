@@ -88,6 +88,15 @@ namespace DataBase
             command.CommandText = string.Format("delete from questions where question_order= {0}", order);//change sql command text 
             command.ExecuteNonQuery();//execute command 
         }
+        public void Delete (int index)
+        {
+            Open_connection();
+            command.CommandText = string.Format("select * from questions where question_text ='{0}'", dataTables[0].Rows[index].ItemArray[0]);
+            DataTable temp_table = new DataTable();
+            SqlDataAdapter temp_adapter = new SqlDataAdapter(command);
+            temp_adapter.Fill(temp_table);
+            Delete(temp_table.Rows[0].ItemArray[2].ToString(), (int)(temp_table.Rows[0].ItemArray[1]));
+        }
         public DataTable load()//this method used to load all data from database and cache them
         {
             Open_connection();

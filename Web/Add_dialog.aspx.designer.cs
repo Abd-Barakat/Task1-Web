@@ -13,31 +13,22 @@ namespace Web {
     public partial class Add_dialog {
         
         /// <summary>
-        /// Add_form control.
+        /// QuestionTypePanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm Add_form;
+        protected global::System.Web.UI.WebControls.Panel QuestionTypePanel;
         
         /// <summary>
-        /// Question_typePanel control.
+        /// QuestionType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Question_typePanel;
-        
-        /// <summary>
-        /// Question_types control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList Question_types;
+        protected global::System.Web.UI.WebControls.RadioButtonList QuestionType;
         
         /// <summary>
         /// SaveButton control.
@@ -47,5 +38,17 @@ namespace Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button SaveButton;
+        
+        /// <summary>
+        /// Master property.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated property.
+        /// </remarks>
+        public new Web.Master_Page Master {
+            get {
+                return ((Web.Master_Page)(base.Master));
+            }
+        }
     }
 }

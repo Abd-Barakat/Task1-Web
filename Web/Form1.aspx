@@ -120,7 +120,7 @@
             <input id="AddButton" type="button" value="Add" class="auto-style7 " onclick="Add_dialog()" />
             <script type="text/javascript">
                 function Add_dialog() {
-                    window.open("../Add_dialog.aspx", "_blank", false);
+                    window.open("Add_dialog.aspx", "_blank", false);
                     window.location.replace("Form1.aspx");
                 }
                 function Edit_dialog() {

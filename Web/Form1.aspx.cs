@@ -11,7 +11,6 @@ namespace Web
 {
     public partial class Form1 : System.Web.UI.Page
     {
-        public bool check;
         private DBclass db = new DBclass();
         public int Row_index = -1;//to javascript variable (index)
         public int Row_count = 0;//to javascript variable (Row_Count)
@@ -22,8 +21,8 @@ namespace Web
         /// <param name="e"></param>
         protected void GridView1_Load(object sender, EventArgs e)
         {
-            Row_index = GridView1.SelectedIndex;
-            Session["Index"] = Row_index.ToString();
+            Row_index = GridView1.SelectedIndex;//used for delete  and edit dialog
+            Session["Index"] = Row_index.ToString();//used in edit dialog
             GridView1.DataSource = db.load();//return question table and assign it to gridview 
             GridView1.DataBind();//connect between gridview and data source
             Row_count = GridView1.Rows.Count;//hold # of rows in gridview 
@@ -37,6 +36,7 @@ namespace Web
         {
             db.Delete(Row_index);//call delete method from database
             GridView1_Load(null, null);//call gridview load event handler to update gridview 
+            Row_index = -1;//used for delete and edit dialog
         }
         /// <summary>
         /// event handler for selected index changed of gridview 
@@ -45,8 +45,8 @@ namespace Web
         /// <param name="e"></param>
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Row_index = GridView1.SelectedIndex;
-            Session["Index"] = Row_index.ToString();
+            Row_index = GridView1.SelectedIndex;//used for delete and edit dialog
+            Session["Index"] = Row_index.ToString();//used in edit dialog
         }
 
 

@@ -2215,3 +2215,193 @@ Stack trace :
    at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
    at DataBase.DBclass.Insert(Int32 Groupbox_index, String[] Tables, Question q) in C:\Users\a.barakat\source\repos\Task1\DataBase\DBclass.cs:line 42
    at Web.Add_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Add_dialog.aspx.cs:line 169
+-------------------------------------------------------------------
+
+Date :3/5/2019 6:36:46 PM
+Message :
+Start value should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 81
+-------------------------------------------------------------------
+
+Date :3/5/2019 6:36:49 PM
+Message :
+Start value should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Base.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 81
+-------------------------------------------------------------------
+
+Date :3/5/2019 6:36:57 PM
+Message :
+Start value should be lower than Start caption where Start = 23 Start caption =23
+Parameter name: Slider
+Stack trace :
+   at Questions.Slider.Validate() in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 200
+   at Web.Base.Check(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 232
+-------------------------------------------------------------------
+
+Date :3/5/2019 6:49:02 PM
+Message :
+please write a question
+Stack trace :
+   at Web.Base.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Base.aspx.cs:line 42
+-------------------------------------------------------------------
+
+Date :3/6/2019 2:33:50 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Master_Page.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 90
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 202
+-------------------------------------------------------------------
+
+Date :3/6/2019 2:33:56 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Master_Page.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 90
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 202
+-------------------------------------------------------------------
+
+Date :3/6/2019 2:34:00 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Master_Page.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 90
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 202
+-------------------------------------------------------------------
+
+Date :3/6/2019 2:34:55 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Master_Page.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 90
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 202
+-------------------------------------------------------------------
+
+Date :3/6/2019 2:34:58 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Master_Page.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 90
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 202
+-------------------------------------------------------------------
+
+Date :3/6/2019 2:35:23 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Master_Page.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 90
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 202
+-------------------------------------------------------------------
+
+Date :3/6/2019 2:35:27 PM
+Message :
+questions  shouldn't  contain number 
+Stack trace :
+   at Web.Master_Page.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 90
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 202
+-------------------------------------------------------------------
+
+Date :3/6/2019 4:39:44 PM
+Message :
+question must not contain any punctuation marks
+Stack trace :
+   at Web.Master_Page.Check_punctuation(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 96
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 200
+-------------------------------------------------------------------
+
+Date :3/6/2019 4:39:51 PM
+Message :
+question must not contain any punctuation marks
+Stack trace :
+   at Web.Master_Page.Check_punctuation(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 96
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 200
+-------------------------------------------------------------------
+
+Date :3/6/2019 4:39:57 PM
+Message :
+question must not contain any punctuation marks
+Stack trace :
+   at Web.Master_Page.Check_punctuation(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 96
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 200
+-------------------------------------------------------------------
+
+Date :3/6/2019 4:40:28 PM
+Message :
+question must not contain any punctuation marks
+Stack trace :
+   at Web.Master_Page.Check_punctuation(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 96
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 232
+-------------------------------------------------------------------
+
+Date :3/6/2019 4:40:34 PM
+Message :
+question must not contain any punctuation marks
+Stack trace :
+   at Web.Master_Page.Check_punctuation(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 96
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 232
+-------------------------------------------------------------------
+
+Date :3/6/2019 4:42:05 PM
+Message :
+End value should be integer number
+Stack trace :
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 252
+-------------------------------------------------------------------
+
+Date :3/6/2019 4:42:11 PM
+Message :
+Punctuation marks is not allowed
+Stack trace :
+   at Web.Master_Page.Check_punctuation(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 96
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 251
+-------------------------------------------------------------------
+
+Date :3/6/2019 5:06:13 PM
+Message :
+Violation of PRIMARY KEY constraint 'PK__question__0CED75A92F411378'. Cannot insert duplicate key in object 'dbo.questions'. The duplicate key value is (40).
+The statement has been terminated.
+Stack trace :
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataBase.DBclass.Insert(Int32 Groupbox_index, String[] Tables, Question q) in C:\Users\a.barakat\source\repos\Task1\DataBase\DBclass.cs:line 42
+   at Web.Add_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Add_dialog.aspx.cs:line 97
+-------------------------------------------------------------------
+
+Date :3/6/2019 5:06:21 PM
+Message :
+Violation of PRIMARY KEY constraint 'PK__question__0CED75A92F411378'. Cannot insert duplicate key in object 'dbo.questions'. The duplicate key value is (40).
+The statement has been terminated.
+Stack trace :
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataBase.DBclass.Insert(Int32 Groupbox_index, String[] Tables, Question q) in C:\Users\a.barakat\source\repos\Task1\DataBase\DBclass.cs:line 42
+   at Web.Add_dialog.Save_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Add_dialog.aspx.cs:line 97
+-------------------------------------------------------------------
+
+Date :3/6/2019 5:50:00 PM
+Message :
+Questions  shouldn't  contain number 
+Stack trace :
+   at Web.Master_Page.Check_number(String text) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 90
+   at Web.Master_Page.Change_Values(List`1 Values) in C:\Users\a.barakat\source\repos\Task1-Web\Web\Master_Page.Master.cs:line 201
