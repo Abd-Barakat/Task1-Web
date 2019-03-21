@@ -4,27 +4,29 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.Services;
 using Questions;
-using DataBase;
 using System.IO;
+using DataBase;
+using System.Data;
 namespace Web
 {
+    [System.Web.Script.Services.ScriptService]
     public partial class Master_Page : System.Web.UI.MasterPage
     {
-
-        public readonly string[] Tables = new string[] { "questions", "Slider", "Smiley", "Stars" };
         public DBclass DB = new DBclass();
+        private int oldValue = 0;
+        public readonly string[] Tables = new string[] { "questions", "Slider", "Smiley", "Stars" };
         public Question q;
-        
-        public GridView GridView1
+        public Panel QuestionPanel
         {
-            set
+            private set
             {
-                gridView1 = value;
+                questionPanel = value;
             }
             get
             {
-                return (GridView)this.FindControl("gridView1");
+                return questionPanel;
             }
         }
         public TextBox QuestionTextbox
@@ -82,7 +84,10 @@ namespace Web
                 return end_captionTextbox;
             }
         }
-
+        /// <summary>
+        /// check if text is contain a number or not 
+        /// </summary>
+        /// <param name="text"></param>
         public void Check_number(string text)
         {
             if (text.Any(char.IsDigit))
@@ -90,6 +95,10 @@ namespace Web
                 throw new ContainNumberException();
             }
         }
+        /// <summary>
+        /// check if text is contain any punctuation marks
+        /// </summary>
+        /// <param name="text"></param>
         public void Check_punctuation(string text)
         {
             if (text.Any(char.IsPunctuation))
@@ -184,11 +193,17 @@ namespace Web
                     break;
             }
         }
-        protected bool Change_Values(List<int> Values)//check if values are changed or not 
+        /// <summary>
+        /// Change values if they are correct 
+        /// </summary>
+        /// <param name="Values"></param>
+        /// <returns></returns>
+        protected bool Change_Values(List<string> Values)//check if values are changed or not 
         {
-
+        
             try
             {
+                q.Question_order = Int32.Parse(OrderTextbox.Text);
                 if (QuestionTextbox.Text == "")
                 {
                     throw new EmptyException();
@@ -230,7 +245,7 @@ namespace Web
                     if (!isEmpty(StartTextbox))
                     {
                         Check_punctuation(StartTextbox.Text);
-                        Values[0] = Int32.Parse(StartTextbox.Text);//validate user input 
+                        Values[0] = StartTextbox.Text;//validate user input 
                     }
                 }
                 catch (FormatException ex)
@@ -249,7 +264,7 @@ namespace Web
                     if (!isEmpty(EndTextbox))
                     {
                         Check_punctuation(EndTextbox.Text);
-                        Values[1] = Int32.Parse(EndTextbox.Text);
+                        Values[1] = EndTextbox.Text;
                     }
                 }
                 catch (FormatException ex)
@@ -269,7 +284,7 @@ namespace Web
                     if (!isEmpty(Start_captionTextbox))
                     {
                         Check_punctuation(Start_captionTextbox.Text);
-                        Values[2] = Int32.Parse(Start_captionTextbox.Text);
+                        Values[2] = Start_captionTextbox.Text;
                     }
                 }
                 catch (FormatException ex)
@@ -289,7 +304,7 @@ namespace Web
                     if (!isEmpty(End_captionTextbox))
                     {
                         Check_punctuation(End_captionTextbox.Text);
-                        Values[3] = Int32.Parse(End_captionTextbox.Text);
+                        Values[3] = End_captionTextbox.Text;
                     }
                 }
                 catch (FormatException ex)
@@ -321,7 +336,7 @@ namespace Web
                     if (!isEmpty(StartTextbox))
                     {
                         Check_punctuation(StartTextbox.Text);
-                        Values[0] = Int32.Parse(StartTextbox.Text);
+                        Values[0] = StartTextbox.Text;
                         q.Set_values(Values);
                     }
                 }
@@ -349,7 +364,7 @@ namespace Web
                     if (!isEmpty(StartTextbox))
                     {
                         Check_punctuation(StartTextbox.Text);
-                        Values[0] = Int32.Parse(StartTextbox.Text);
+                        Values[0] = StartTextbox.Text;
                         q.Set_values(Values);
                     }
                 }
@@ -372,8 +387,12 @@ namespace Web
             }
             return true;
         }
-
-        public bool Check(List<int> Values)//this function check if entered values are correct and within thier ranges 
+        /// <summary>
+        /// check if entered values are correct and within thier ranges 
+        /// </summary>
+        /// <param name="Values"></param>
+        /// <returns></returns>
+        public bool Check(List<string> Values)
         {
             if (!Change_Values(Values))//check if values changed (or not) correctly or not 
             {
@@ -389,14 +408,20 @@ namespace Web
                 return false;
             }
         }
-
+        /// <summary>
+        /// Print Errors in Error.txt file and alert with a specific message.
+        /// </summary>
+        /// <param name="Message"></param>
+        /// <param name="ex"></param>
+        /// <param name="validation"></param>
         public void Alert(string Message, Exception ex, bool validation = true)
         {
+            //string Error_file = string.Format(@path + @"\Error.txt");
             if (validation == false)
                 Response.Write("<script> alert('Values are not valid\\nCheck Error.txt file') </script>");
             else
                 Response.Write("<script > alert('" + Message + "') ;</script>");
-            using (StreamWriter stream = new StreamWriter(@"C: \Users\a.barakat\source\repos\Task1-Web\Error.txt", true))//save errors in Error.txt file
+            using (StreamWriter stream = new StreamWriter(@"C:\Users\a.barakat\source\repos\Task1-Web\Error.txt", true))//save errors in Error.txt file
             {
                 stream.WriteLine("-------------------------------------------------------------------\n");
                 stream.WriteLine("Date :" + DateTime.Now.ToLocalTime());
@@ -408,10 +433,34 @@ namespace Web
                 }
             }
         }
+        /// <summary>
+        /// Print Errors in Error.txt file and alert with a specific message.
+        /// </summary>
+        /// <param name="Message"></param>
         public void Alert(string Message)
         {
             Response.Write("<script> alert('" + Message + "') </script>");
         }
+        ///// <summary>
+        ///// Handles the ValueChanged event of the QuestionOrderUpDown control, call Prev_Number_UpDown or Next_Number_UpDown depends on up or down button that pressed.
+        ///// </summary>
+        ///// <param name="sender">The source of the event.</param>
+        ///// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+        //private void QuestionOrderUpDown_ValueChanged(object sender, EventArgs e)
+        //{
+        //    if (Int32.Parse(OrderTextbox.Text) > oldValue)
+        //    {
+        //        Next_Number_UpDown(OrderTextbox);
+        //        oldValue = Int32.Parse(OrderTextbox.Text);
+        //    }
+        //    else
+        //    {
+        //        Prev_Number_UpDown(OrderTextbox);
+        //        oldValue = Int32.Parse(OrderTextbox.Text);
+        //    }
 
+        //}
+     
+        
     }
 }

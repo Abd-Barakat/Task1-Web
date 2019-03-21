@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Up">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="current" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="tag" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Down">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="current" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="tag" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DownResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UpSoapIn">
+    <wsdl:part name="parameters" element="tns:Up" />
+  </wsdl:message>
+  <wsdl:message name="UpSoapOut">
+    <wsdl:part name="parameters" element="tns:UpResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownSoapIn">
+    <wsdl:part name="parameters" element="tns:Down" />
+  </wsdl:message>
+  <wsdl:message name="DownSoapOut">
+    <wsdl:part name="parameters" element="tns:DownResponse" />
+  </wsdl:message>
+  <wsdl:portType name="NumericUpDownSoap">
+    <wsdl:operation name="Up">
+      <wsdl:input message="tns:UpSoapIn" />
+      <wsdl:output message="tns:UpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Down">
+      <wsdl:input message="tns:DownSoapIn" />
+      <wsdl:output message="tns:DownSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NumericUpDownSoap" type="tns:NumericUpDownSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Up">
+      <soap:operation soapAction="http://tempuri.org/Up" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Down">
+      <soap:operation soapAction="http://tempuri.org/Down" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NumericUpDownSoap12" type="tns:NumericUpDownSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Up">
+      <soap12:operation soapAction="http://tempuri.org/Up" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Down">
+      <soap12:operation soapAction="http://tempuri.org/Down" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NumericUpDown">
+    <wsdl:port name="NumericUpDownSoap" binding="tns:NumericUpDownSoap">
+      <soap:address location="http://localhost:50744/NumericUpDown.asmx" />
+    </wsdl:port>
+    <wsdl:port name="NumericUpDownSoap12" binding="tns:NumericUpDownSoap12">
+      <soap12:address location="http://localhost:50744/NumericUpDown.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

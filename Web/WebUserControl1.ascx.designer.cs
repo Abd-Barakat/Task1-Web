@@ -10,54 +10,42 @@
 namespace Web {
     
     
-    public partial class Add_dialog {
+    public partial class WebUserControl1 {
         
         /// <summary>
-        /// QuestionTypePanel control.
+        /// Panel1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel QuestionTypePanel;
+        protected global::System.Web.UI.WebControls.Panel Panel1;
         
         /// <summary>
-        /// QuestionType control.
+        /// TextBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList QuestionType;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
         
         /// <summary>
-        /// SaveButton control.
+        /// DownButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SaveButton;
+        protected global::System.Web.UI.WebControls.ImageButton DownButton;
         
         /// <summary>
-        /// CancelButton control.
+        /// UpButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CancelButton;
-        
-        /// <summary>
-        /// Master property.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated property.
-        /// </remarks>
-        public new Web.Master_Page Master {
-            get {
-                return ((Web.Master_Page)(base.Master));
-            }
-        }
+        protected global::System.Web.UI.WebControls.ImageButton UpButton;
     }
 }

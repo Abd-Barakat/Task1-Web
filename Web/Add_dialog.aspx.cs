@@ -20,15 +20,8 @@ namespace Web
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         protected void Page_Init(object sender, EventArgs e)
         {
-           
             Master_Page master = (Master_Page)Page.Master;
-            
             ViewState["Master"] = master;
-            if (!IsPostBack)
-            {
-                master.GridView1.DataSource = master.DB.question_table().Clone();
-                master.GridView1.DataBind();
-            }
         }
 
         /// <summary>
@@ -50,24 +43,28 @@ namespace Web
         private void Show_controls (int QuestionType)
         {
             master.Set_Placeholders();
-            SaveButton.Visible = true;
+            master.QuestionPanel.Visible = true;
             master.StartTextbox.Visible = true;
             switch (QuestionType)
             {
                 case 0:
+                    master.StartTextbox.ToolTip = "Start";
                     master.EndTextbox.Visible = true;
                     master.End_captionTextbox.Visible = true;
                     master.Start_captionTextbox.Visible = true;
-
                     break;
                 case 1:
-                case 2:
+                    master.StartTextbox.ToolTip = "Smiles";
                     master.EndTextbox.Visible = false;
                     master.End_captionTextbox.Visible = false;
                     master.Start_captionTextbox.Visible = false;
-
                     break;
-                   
+                case 2:
+                    master.StartTextbox.ToolTip = "Stars";
+                    master.EndTextbox.Visible = false;
+                    master.End_captionTextbox.Visible = false;
+                    master.Start_captionTextbox.Visible = false;
+                    break;
             }
         }
        
@@ -87,17 +84,7 @@ namespace Web
                 {
                     try
                     {
-                        master.DB.Insert(Groupbox_index, master.Tables, master.q);//call Insert method in DBclass to insert the new question into database
-                        DataTable temp = master.DB.question_table().Clone();
-                        DataRow row = temp.NewRow();
-
-                        row[0] = master.QuestionTextbox.Text;
-                        row[1] = master.q.Question_order.ToString();
-                        row[2] = master.Tables[Groupbox_index + 1];
-                        temp.Rows.Add(row);
-
-                        master.GridView1.DataSource = temp;
-                        master.GridView1.DataBind();
+                        master.DB.Insert(master.q);//call Insert method in DBclass to insert the new question into database
                         Hide_controls(master.q);
                         ScriptManager.RegisterClientScriptBlock(this, GetType(), "Key", "RefreshParent();", true);
                         master.Alert("Done!!");
@@ -113,20 +100,7 @@ namespace Web
             }
             else
             {
-                master.q.Reset_values();
-            }
-        }
-        /// <summary>
-        /// Handles the RowCreated event of the GridView1 control.
-        /// </summary>
-        /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="GridViewRowEventArgs"/> instance containing the event data.</param>
-        protected void GridView1_RowCreated(object sender, GridViewRowEventArgs e)
-        {
-            if (master.GridView1.Rows.Count == 1)
-            {
-                Hide_controls(master.q);
-
+                master.q.Set_values(master.q.Default_values());
             }
         }
         /// <summary>
@@ -155,47 +129,34 @@ namespace Web
         protected void QuestionType_SelectedIndexChanged(object sender, EventArgs e)
         {
             master =(Master_Page) ViewState["Master"];
-            master.QuestionTextbox.Visible = true;
+            int id = (int)Session["Next_Id"];
             Release(master.q);//call method release that release  q object if refere to another object 
             switch (QuestionType.SelectedIndex)
             {
                 case 0://if slider radio button 
-
-
-                    master.q = new Slider();//create slider object
-                    master.q.Question_order = master.DB.Max_order() + 1;//sign qustion_order property to next_order field
+                    master.q = new Slider(id);//create slider object
                     ViewState["q"] = master.q;
                     Show_controls(0);
-
-
                     break;
                 case 1://if Smiley radio button 
-
-
-                    master.q = new Smiley();//create smiley object
-                    master.q.Question_order = master.DB.Max_order() + 1;//sign qustion_order property to next_order field
+                    master.q = new Smiley(id);//create smiley object
                     ViewState["q"] = master.q;
-
                     Show_controls(1);
-
                     break;
                 case 2://if Stars radio button 
-
-                    master.q = new Stars();//create star object
-                    master.q.Question_order = master.DB.Max_order() + 1;//sign qustion_order property to next_order field
+                    master.q = new Stars(id);//create star object
                     ViewState["q"] = master.q;
-
                     Show_controls(2);
-
-
                     break;
                 default:
                     master.Alert("No Selection !");
                     break;
             }
         }
-       
 
-       
+        protected void CancelButton_Click(object sender, EventArgs e)
+        {
+            Page.Dispose();
+        }
     }
 }

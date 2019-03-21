@@ -1,0 +1,73 @@
+-------------------------------------------------------------------
+
+Date :3/19/2019 3:27:36 PM
+Message :
+
+-------------------------------------------------------------------
+
+Date :3/19/2019 3:27:36 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122
+-------------------------------------------------------------------
+
+Date :3/19/2019 3:27:56 PM
+Message :
+
+-------------------------------------------------------------------
+
+Date :3/19/2019 3:27:56 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122
+-------------------------------------------------------------------
+
+Date :3/19/2019 3:32:20 PM
+Message :
+
+-------------------------------------------------------------------
+
+Date :3/19/2019 3:33:40 PM
+Message :
+4
+-------------------------------------------------------------------
+
+Date :3/19/2019 3:33:40 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122
+-------------------------------------------------------------------
+
+Date :3/19/2019 3:33:48 PM
+Message :
+4
+-------------------------------------------------------------------
+
+Date :3/19/2019 3:33:48 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122
+-------------------------------------------------------------------
+
+Date :3/20/2019 1:05:22 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122
+-------------------------------------------------------------------
+
+Date :3/20/2019 3:19:07 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122

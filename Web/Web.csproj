@@ -46,14 +46,17 @@
     <Reference Include="AjaxControlToolkit, Version=18.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
       <HintPath>..\packages\AjaxControlToolkit.18.1.1\lib\net40\AjaxControlToolkit.dll</HintPath>
     </Reference>
-    <Reference Include="DataBase">
-      <HintPath>resources\DataBase.dll</HintPath>
+    <Reference Include="DataBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Task1\DataBase\bin\Debug\DataBase.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Questions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>resources\Questions.dll</HintPath>
+      <HintPath>..\..\Task1\DataBase\bin\Debug\Questions.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -77,48 +80,58 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Add_dialog.aspx" />
-    <Content Include="Edit_dialog.aspx" />
-    <Content Include="Form1.aspx" />
+    <Content Include="ArrowDown.png" />
+    <Content Include="ArrowUp.png" />
+    <None Include="Connected Services\UpDown\NumericUpDown.disco" />
+    <None Include="Connected Services\UpDown\configuration91.svcinfo" />
+    <None Include="Connected Services\UpDown\configuration.svcinfo" />
+    <None Include="Connected Services\UpDown\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Main.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add_dialog.aspx.cs">
-      <DependentUpon>Add_dialog.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Add_dialog.aspx.designer.cs">
-      <DependentUpon>Add_dialog.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Edit_dialog.aspx.cs">
-      <DependentUpon>Edit_dialog.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Edit_dialog.aspx.designer.cs">
-      <DependentUpon>Edit_dialog.aspx</DependentUpon>
+    <Compile Include="Connected Services\UpDown\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Exceptions.cs" />
-    <Compile Include="Form1.aspx.cs">
-      <DependentUpon>Form1.aspx</DependentUpon>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Form1.aspx.designer.cs">
-      <DependentUpon>Form1.aspx</DependentUpon>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NumericUpDownService.asmx.cs">
+      <DependentUpon>NumericUpDownService.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Master_Page.Master.cs">
-      <DependentUpon>Master_Page.Master</DependentUpon>
+    <Compile Include="QuestionAttributes.aspx.cs">
+      <DependentUpon>QuestionAttributes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Master_Page.Master.designer.cs">
-      <DependentUpon>Master_Page.Master</DependentUpon>
+    <Compile Include="QuestionAttributes.aspx.designer.cs">
+      <DependentUpon>QuestionAttributes.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Connected Services\UpDown\NumericUpDown.wsdl" />
+    <Content Include="Connected Services\UpDown\Web.UpDown.DownResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\UpDown\Web.UpDown.UpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="packages.config" />
+    <Content Include="NumericUpDownService.asmx" />
+    <Content Include="QuestionAttributes.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Master_Page.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -128,6 +141,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\UpDown\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
