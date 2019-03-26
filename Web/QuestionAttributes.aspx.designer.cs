@@ -40,6 +40,15 @@ namespace Web {
         protected global::System.Web.UI.WebControls.TextBox question_box;
         
         /// <summary>
+        /// Question_Validator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator Question_Validator;
+        
+        /// <summary>
         /// QuestionOrder_Textbox control.
         /// </summary>
         /// <remarks>
@@ -47,6 +56,15 @@ namespace Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox QuestionOrder_Textbox;
+        
+        /// <summary>
+        /// Order_Validator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator Order_Validator;
         
         /// <summary>
         /// QuestionType_DropDownList control.
@@ -67,6 +85,15 @@ namespace Web {
         protected global::System.Web.UI.WebControls.TextBox Shared_textbox;
         
         /// <summary>
+        /// Shared_Validator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator Shared_Validator;
+        
+        /// <summary>
         /// End_textBox control.
         /// </summary>
         /// <remarks>
@@ -74,6 +101,15 @@ namespace Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox End_textBox;
+        
+        /// <summary>
+        /// End_Validator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator End_Validator;
         
         /// <summary>
         /// Start_caption_textBox control.
@@ -85,6 +121,15 @@ namespace Web {
         protected global::System.Web.UI.WebControls.TextBox Start_caption_textBox;
         
         /// <summary>
+        /// Start_Caption_Validator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator Start_Caption_Validator;
+        
+        /// <summary>
         /// End_caption_textBox control.
         /// </summary>
         /// <remarks>
@@ -92,6 +137,15 @@ namespace Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox End_caption_textBox;
+        
+        /// <summary>
+        /// End_Caption_Validator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator End_Caption_Validator;
         
         /// <summary>
         /// SaveButton control.

@@ -109,8 +109,8 @@
 
             }
         }
-        var Row_Count = <%=Row_count%>;
-        var Row_Index =<%=Row_index%>;
+    <%--    var Row_Count = <%=Row_count%>;
+        var Row_Index =<%=Row_index%>;--%>
     </script>
 
     <form id="Main_form" runat="server" style="height: 100%">
@@ -119,13 +119,13 @@
             <table class="auto-style15">
                 <tr>
                     <td class="auto-style17">
-                        <asp:ListBox ID="DatabaseListBox" runat="server" CssClass="auto-style18" OnLoad="DatabaseListBox_Load" Font-Size="Medium" Font-Strikeout="False" ForeColor="Blue" SelectionMode="Multiple" TabIndex="3" ToolTip="Select a question"></asp:ListBox>
+                        <asp:ListBox ID="DatabaseListBox" runat="server" CssClass="auto-style18" OnLoad="DatabaseListBox_Load" Font-Size="Medium" Font-Strikeout="False" ForeColor="Black" SelectionMode="Multiple" TabIndex="3" ToolTip="Select a question" OnSelectedIndexChanged="DatabaseListBox_SelectedIndexChanged"></asp:ListBox>
                     </td>
                     <td style="vertical-align: top; text-align: left; height: 100%; padding-left: 5px; width: 5%;">
                         <asp:Button ID="AddButton" runat="server" CssClass="auto-style19" Height="28px" OnClick="AddButton_Click" Text="Add" ToolTip="Add a question" />
                         <br />
                         <br />
-                        <asp:Button ID="EditButton" runat="server" CssClass="auto-style12" Height="28px" OnClick="Edit_Button_Click" OnClientClick="return Check_Selection()" Text="Edit" ToolTip="Edit the selected question" />
+                        <asp:Button ID="EditButton" runat="server" CssClass="auto-style12" Height="28px" OnClick="Edit_Button_Click" Text="Edit" ToolTip="Edit the selected question" />
                         <br />
                         <br />
                         <asp:Button ID="DeleteButton" runat="server" CssClass="auto-style14" Height="28px" OnClick="DeleteButton_Click" OnClientClick=" return Delete_confir()" Text="Delete" ToolTip="Delete the selected question" />

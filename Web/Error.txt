@@ -1,73 +1,538 @@
 -------------------------------------------------------------------
 
-Date :3/19/2019 3:27:36 PM
+Date :3/24/2019 12:06:54 PM
 Message :
-
+No question selected
 -------------------------------------------------------------------
 
-Date :3/19/2019 3:27:36 PM
+Date :3/24/2019 12:56:00 PM
+Message :
+No question selected
+-------------------------------------------------------------------
+
+Date :3/24/2019 2:18:07 PM
+Message :
+No question selected
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:09:23 PM
 Message :
 Object reference not set to an instance of an object.
 Stack trace :
-   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
-   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 181
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 96
 -------------------------------------------------------------------
 
-Date :3/19/2019 3:27:56 PM
-Message :
-
--------------------------------------------------------------------
-
-Date :3/19/2019 3:27:56 PM
+Date :3/25/2019 4:25:51 PM
 Message :
 Object reference not set to an instance of an object.
 Stack trace :
-   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
-   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 184
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 98
 -------------------------------------------------------------------
 
-Date :3/19/2019 3:32:20 PM
+Date :3/25/2019 4:34:44 PM
 Message :
-
+Number of faces should be between 2-5
+Stack trace :
+   at Questions.Smiley.set_Smiles(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Smiley.cs:line 35
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 312
 -------------------------------------------------------------------
 
-Date :3/19/2019 3:33:40 PM
+Date :3/25/2019 4:34:56 PM
 Message :
-4
+Number of faces should be between 2-5
+Stack trace :
+   at Questions.Smiley.set_Smiles(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Smiley.cs:line 35
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 312
 -------------------------------------------------------------------
 
-Date :3/19/2019 3:33:40 PM
+Date :3/25/2019 4:34:57 PM
+Message :
+Number of faces should be between 2-5
+Stack trace :
+   at Questions.Smiley.set_Smiles(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Smiley.cs:line 35
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 312
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:35:00 PM
+Message :
+Number of faces should be between 2-5
+Stack trace :
+   at Questions.Smiley.set_Smiles(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Smiley.cs:line 35
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 312
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:35:02 PM
+Message :
+Number of faces should be between 2-5
+Stack trace :
+   at Questions.Smiley.set_Smiles(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Smiley.cs:line 35
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 312
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:35:09 PM
+Message :
+Number of Smiles should be integer number
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 316
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:43:20 PM
+Message :
+Number of faces should be between 2-5
+Stack trace :
+   at Questions.Smiley.set_Smiles(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Smiley.cs:line 35
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 312
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:43:53 PM
+Message :
+Number of Smiles should be positive integer
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 316
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:46:25 PM
+Message :
+Number of Smiles should be between 2-5
+Stack trace :
+   at Questions.Smiley.set_Smiles(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Smiley.cs:line 35
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 312
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:51:36 PM
+Message :
+Number of Smiles should be positive integer
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 316
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:51:41 PM
+Message :
+Number of Smiles should be between 2-5
+Stack trace :
+   at Questions.Smiley.set_Smiles(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Smiley.cs:line 35
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 312
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:51:46 PM
+Message :
+Number of Stars should be positive integer
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 348
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:51:51 PM
+Message :
+Number of stars  should be between 0-10
+Stack trace :
+   at Questions.Stars.set_Star(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Stars.cs:line 33
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 344
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:54:53 PM
+Message :
+Question should not contain a number
+Stack trace :
+   at Questions.Question.set_Question_text(String value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 49
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 187
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:54:58 PM
+Message :
+Question should not contain a number
+Stack trace :
+   at Questions.Question.set_Question_text(String value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 49
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 187
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:55:05 PM
+Message :
+Number of Smiles should be positive integer
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 316
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:55:09 PM
+Message :
+Number of Smiles should be positive integer
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 316
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:55:16 PM
+Message :
+Number of Smiles should be positive integer
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 316
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:55:22 PM
+Message :
+Number of Smiles should be between 2-5
+Stack trace :
+   at Questions.Smiley.set_Smiles(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Smiley.cs:line 35
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 312
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:57:22 PM
+Message :
+Question should not contain a number
+Stack trace :
+   at Questions.Question.set_Question_text(String value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 49
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 187
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:57:45 PM
+Message :
+Number of Smiles should be between 2-5
+Stack trace :
+   at Questions.Smiley.set_Smiles(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Smiley.cs:line 35
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 313
+-------------------------------------------------------------------
+
+Date :3/25/2019 4:57:49 PM
+Message :
+Number of Smiles should be between 2-5
+Stack trace :
+   at Questions.Smiley.set_Smiles(Int32 value) in C:\Users\a.barakat\source\repos\Task1\Questions\Smiley.cs:line 35
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 313
+-------------------------------------------------------------------
+
+Date :3/25/2019 5:02:36 PM
+Message :
+Question should not contain a number
+Stack trace :
+   at Questions.Question.set_Question_text(String value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 49
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 187
+-------------------------------------------------------------------
+
+Date :3/25/2019 5:02:54 PM
+Message :
+Question should not contain a number
+Stack trace :
+   at Questions.Question.set_Question_text(String value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 49
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 187
+-------------------------------------------------------------------
+
+Date :3/25/2019 5:03:09 PM
+Message :
+Question should not contain a number
+Stack trace :
+   at Questions.Question.set_Question_text(String value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 49
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 187
+-------------------------------------------------------------------
+
+Date :3/25/2019 5:18:54 PM
+Message :
+Question should not contain a number
+Stack trace :
+   at Questions.Question.set_Question_text(String value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 49
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 187
+-------------------------------------------------------------------
+
+Date :3/25/2019 5:19:08 PM
+Message :
+Question should not contain a number
+Stack trace :
+   at Questions.Question.set_Question_text(String value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 49
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 187
+-------------------------------------------------------------------
+
+Date :3/26/2019 9:35:50 AM
+Message :
+Question should not contain a number
+Stack trace :
+   at Questions.Question.set_Question_text(String value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 49
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 187
+-------------------------------------------------------------------
+
+Date :3/26/2019 9:36:13 AM
+Message :
+Question should not contain a number
+Stack trace :
+   at Questions.Question.set_Question_text(String value) in C:\Users\a.barakat\source\repos\Task1\Questions\Question.cs:line 49
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 187
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:33:07 PM
 Message :
 Object reference not set to an instance of an object.
 Stack trace :
-   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
-   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 187
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 98
 -------------------------------------------------------------------
 
-Date :3/19/2019 3:33:48 PM
-Message :
-4
--------------------------------------------------------------------
-
-Date :3/19/2019 3:33:48 PM
+Date :3/26/2019 12:41:50 PM
 Message :
 Object reference not set to an instance of an object.
 Stack trace :
-   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
-   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 183
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
 -------------------------------------------------------------------
 
-Date :3/20/2019 1:05:22 PM
+Date :3/26/2019 12:42:36 PM
 Message :
 Object reference not set to an instance of an object.
 Stack trace :
-   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
-   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 183
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
 -------------------------------------------------------------------
 
-Date :3/20/2019 3:19:07 PM
+Date :3/26/2019 12:42:54 PM
 Message :
 Object reference not set to an instance of an object.
 Stack trace :
-   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 207
-   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 122
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 183
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:43:19 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 183
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:44:20 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 183
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:53:59 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:53:59 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:53:59 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 168
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:54:33 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:54:33 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:54:33 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 168
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:56:30 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:56:40 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:56:40 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 168
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:57:13 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:57:14 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:57:14 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 168
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:57:35 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:58:01 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:58:01 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 168
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:58:50 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:58:56 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:58:56 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 168
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:59:24 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:59:49 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 12:59:49 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 168
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:00:18 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:00:34 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:00:34 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 168
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:01:04 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:01:12 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:01:20 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 168
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:05:03 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:05:06 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:05:09 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 168
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:06:43 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:06:45 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:09:52 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:09:55 PM
+Message :
+Order filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:11:09 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:14:11 PM
+Message :
+Question filed is required
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:14:14 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 135
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 1:14:28 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 135
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1\Task1-Web\Web\QuestionAttributes.aspx.cs:line 95
+-------------------------------------------------------------------
+
+Date :3/26/2019 4:13:12 PM
+Message :
+Object reference not set to an instance of an object.
+Stack trace :
+   at Web.QuestionAttributes.Change_Values() in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 137
+   at Web.QuestionAttributes.Save_new_question_Click(Object sender, EventArgs e) in C:\Users\a.barakat\source\repos\Task1-Web\Web\QuestionAttributes.aspx.cs:line 97

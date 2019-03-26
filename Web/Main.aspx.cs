@@ -1,21 +1,21 @@
-﻿using System;
+﻿using DataBase;
+using Questions;
+using System;
 using System.Collections.Generic;
+using System.Data;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
-using Questions;
-using System.Data;
-using DataBase;
-using System.IO;
 namespace Web
 {
     public partial class Form1 : System.Web.UI.Page
     {
         private DBclass DataBase = new DBclass();
-        public int Row_index = -1;//to javascript variable (index)
-        public int Row_count = 0;//to javascript variable (Row_Count)
-        private string path = HttpRuntime.AppDomainAppPath;
+        private List<Question> questions;
+        public int Row_index ;//to javascript variable (index)
+        public int Row_count ;//to javascript variable (Row_Count)
+        private string path ;
 
 
         /// <summary>
@@ -25,9 +25,8 @@ namespace Web
         /// <param name="e"></param>
         protected void DatabaseListBox_Load(object sender, EventArgs e)
         {
-            Upload();
+            Load_Database();
             Row_count = DatabaseListBox.Rows;//hold # of rows in gridview 
-            Session["Next_Id"] =Row_count ;
         }
         /// <summary>
         /// Handles the Click event of the DeleteButton control.
@@ -40,19 +39,6 @@ namespace Web
             DatabaseListBox_Load(null, null);//call gridview load event handler to update gridview 
             Row_index = -1;
             DatabaseListBox.SelectedIndex = Row_index;
-        }
-        /// <summary>
-        /// event handler for selected index changed of gridview 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            Row_index = DatabaseListBox.SelectedIndex;//used for delete and edit dialog
-            if (Row_index != -1)
-            {
-                Session["Id"] = (int)DataBase.Question_table().Rows[Row_index].ItemArray[3];//used in edit dialog
-            }
         }
         /// <summary>
         /// Handles the Click event of the Edit_Button control.
@@ -74,7 +60,7 @@ namespace Web
             {
                 Alert("Please select one question to edit");
             }
-            Upload();//update datalist box view with new data when add dialog close
+            Load_Database();//update datalist box view with new data when add dialog close
         }
         /// <summary>
         /// return id for selected question from database.
@@ -98,16 +84,15 @@ namespace Web
         /// <summary>
         /// Uploads list box with new questions from database.
         /// </summary>
-        private void Upload()//this method for update List box with data from database 
+        private void Load_Database()//this method for update List box with data from database 
         {
             try
             {
                 DatabaseListBox.Items.Clear();//clear list box from questions
-                DataTable temp = DataBase.Load();
-                Session["DataBase"] = DataBase;
-                foreach (DataRow row in temp.Rows)
+                Create_Objects();
+                foreach (Question question in questions)
                 {
-                    DatabaseListBox.Items.Add(row.ItemArray[0].ToString());
+                    DatabaseListBox.Items.Add(question.Question_text);
                 }
             }
             catch (Exception ex)
@@ -117,8 +102,8 @@ namespace Web
 
         }
         /// <summary>
-        /// return id for selected question from database.
         /// </summary>
+        /// return id for selected question from database.
         /// <returns>
         /// id for selection question
         /// </returns>
@@ -143,7 +128,8 @@ namespace Web
         /// <param name="validation"></param>
         public void Alert(string Message, Exception ex, bool validation = true)
         {
-            string Error_file = string.Format(@path + @"\Error.txt");
+            path = HttpRuntime.AppDomainAppPath;
+            string Error_file = string.Format(@path + @"Error.txt");
             if (validation == false)
                 Response.Write("<script> alert('Values are not valid\\nCheck Error.txt file') </script>");
             else
@@ -166,8 +152,9 @@ namespace Web
         /// <param name="Message"></param>
         public void Alert(string Message)
         {
+            path = HttpRuntime.AppDomainAppPath;
             Response.Write("<script> alert('" + Message + "') </script>");
-            string Error_file = string.Format(@path + @"\Error.txt");
+            string Error_file = string.Format(@path + @"Error.txt");
             using (StreamWriter stream = new StreamWriter(@Error_file, true))//save errors in Error.txt file
             {
                 stream.WriteLine("-------------------------------------------------------------------\n");
@@ -200,11 +187,90 @@ namespace Web
             }
             return -1;
         }
+        /// <summary>
+        /// Event handler for Add button click that show Question attribute popup.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected void AddButton_Click(object sender, EventArgs e)
         {
            Session["IsEdit"] = false;
             Page.ClientScript.RegisterClientScriptBlock(GetType(), "Add", "Add_dialog();", true);
+        }
+        /// <summary>
+        /// create Question objects to manipulate them.
+        /// </summary>
+        private void Create_Objects()
+        {
+            try
+            {
+                DataTable[] Temp_Tables = DataBase.Load();
+                foreach (DataRow Question_row in Temp_Tables[0].Rows)
+                {
+                    string Question_text = Question_row.ItemArray[0].ToString();
+                    int Question_order = (int)Question_row.ItemArray[1];
+                    string Question_type = Question_row.ItemArray[2].ToString();
+                    int Id = (int)Question_row.ItemArray[3];
+                    switch (Question_type)
+                    {
+                        case "Slider":
+                            DataRow Slider_row = Temp_Tables[1].Select(string.Format("Convert(Question_Id,'System.String') LIKE '%{0}%'", Id)).First();
+                            int Start = (int)Slider_row.ItemArray[1];
+                            int End = (int)Slider_row.ItemArray[2];
+                            string Start_Caption = Slider_row.ItemArray[3].ToString();
+                            string End_Caption = Slider_row.ItemArray[4].ToString();
+                            Question Slider_question = new Slider(Question_text, Question_order, Id, Start, End, Start_Caption, End_Caption);
+                            questions.Add(Slider_question);
+                            break;
+                        case "Smiley":
+                            DataRow Smiley_row = Temp_Tables[2].Select(string.Format("Convert(Question_Id, 'System.String') LIKE '%{0}%'", Id)).First();
+                            int Smiles = (int)Smiley_row.ItemArray[1];
+                            Question Smiley_question = new Smiley(Question_text, Question_order, Id, Smiles);
+                            questions.Add(Smiley_question);
+                            break;
+                        case "Stars":
+                            DataRow Stars_row = Temp_Tables[3].Select(string.Format("Convert(Question_Id, 'System.String') LIKE '%{0}%'", Id)).First();
+                            int Stars = (int)Stars_row.ItemArray[1];
+                            Question Stars_question = new Stars(Question_text, Question_order, Id, Stars);
+                            questions.Add(Stars_question);
+                            break;
+                    }
+                    ViewState["questions"] = questions;
+                }
+            }
+            catch(Exception ex)
+            {
+                Alert(ex.Message, ex);
+            }
+        }
+        /// <summary>
+        /// Initialize variables when page load
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+               
+                questions = new List<Question>();
+                Row_index = -1;
+                Row_count = 0;
+               
+            }
+            else
+            {
+                questions = (List<Question>)ViewState["questions"];
+            }
+        }
 
+        protected void DatabaseListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Row_index = DatabaseListBox.SelectedIndex;//used for delete and edit dialog
+            if (Row_index != -1)
+            {
+                Session["question"] = questions[Row_index];
+            }
         }
     }
 }
