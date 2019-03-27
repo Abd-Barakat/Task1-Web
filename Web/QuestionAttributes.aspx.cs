@@ -245,7 +245,6 @@ namespace Web
                 }
                 try
                 {
-
                     if (!IsEmpty(Start_caption_textBox))
                     {
                         slider.Start_Caption = Start_caption_textBox.Text;
@@ -292,6 +291,8 @@ namespace Web
                     Print_Errors("Start value should be lower than End value", ex);
                     End_Validator.Text = "*";
                     Shared_Validator.Text = "*";
+                    Shared_textbox.BorderColor = System.Drawing.Color.Red;
+                    End_textBox.BorderColor = System.Drawing.Color.Red;
                     End_Validator.IsValid = false;
                     Shared_Validator.IsValid = false;
                     return false;
@@ -302,7 +303,6 @@ namespace Web
                 Smiley smiley = (Smiley)question;
                 try
                 {
-
                     if (!IsEmpty(Shared_textbox))
                     {
                         if (Shared_textbox.Text.All(char.IsDigit))
@@ -454,9 +454,6 @@ namespace Web
         /// <param name="e"></param>
         protected void QuestionType_DropDownList_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //    Slider_Defaults = (List<string>)ViewState["Slider_Defaults"];
-            //    Smiley_Default = (int)ViewState["Smiley_Default"];
-            //    Stars_Default = (int)ViewState["Stars_Default"];
             Relese(question);//call method release that release  q object if refere to another object 
             switch (QuestionType_DropDownList.SelectedIndex)
             {
@@ -544,6 +541,7 @@ namespace Web
             if (!IsPostBack)
             {
                 QuestionType_DropDownList.SelectedIndex = 0;
+                QuestionType_DropDownList_SelectedIndexChanged(null, null);
                 IsEdit = (bool)Session["IsEdit"];
                 if (IsEdit)
                 {
@@ -553,7 +551,6 @@ namespace Web
                 {
                     Add_Initializer();
                 }
-
             }
             else
             {
@@ -623,7 +620,6 @@ namespace Web
         /// <param name="Current_Order"></param>
         private void Prev_Order(int Current_Order)
         {
-
             Reserved_orders = (List<int>)ViewState["Reserved_orders"];
             if (Reserved_orders == null)
             {

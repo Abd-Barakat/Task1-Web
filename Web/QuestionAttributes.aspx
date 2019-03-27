@@ -47,7 +47,7 @@
             border-width: thin;
             position: static;
             height: 18px;
-            width: 90%;
+            width: 99%;
         }
 
         .auto-style48 {
@@ -90,7 +90,7 @@
             border-width: thin;
             position: static;
             min-width: 250px;
-            width: 90%;
+            width: 99%;
             height: 58px;
         }
     </style>
@@ -112,7 +112,7 @@
              $Textbox.css('border-color', 'red');
         }
     </script>
-    <form id="form1" runat="server" class="auto-style41" style="height: 350px">
+    <form id="form1" runat="server" class="auto-style41" style="height: 280px">
         <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True">
         </asp:ScriptManager>
 
@@ -128,13 +128,22 @@
                         </tr>
                         <tr>
                             <td class="auto-style53">
+                                <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                                <ContentTemplate>
+
                                 <asp:TextBox ID="QuestionOrder_Textbox" runat="server" CssClass="auto-style47" TextMode="Number"  ToolTip="Select question order"  style="border-radius:4px; min-width: 250px;" TabIndex="2" AutoPostBack="True" OnTextChanged="QuestionOrder_Textbox_TextChanged" placeholder="Select question order" onblur="RedFunction(this)"></asp:TextBox>
                                 <asp:CustomValidator ID="Order_Validator" runat="server" ControlToValidate="QuestionOrder_Textbox" CssClass="auto-style61" Display="Dynamic" ErrorMessage="CustomValidator" ForeColor="Red" Style="z-index: 1; margin-left: 10px; position: static" ValidationGroup="Required" OnServerValidate="ServerValidate" ValidateEmptyText="True"></asp:CustomValidator>
-                            </td>
+                           
+                                </ContentTemplate>
+                                    <Triggers >
+                                        <asp:AsyncPostBackTrigger ControlID="QuestionOrder_Textbox" EventName="TextChanged" />
+                                    </Triggers>
+                                    </asp:UpdatePanel>
+                                    </td>
                         </tr>
                         <tr>
                             <td class="auto-style62" >
-                                <asp:DropDownList ID="QuestionType_DropDownList" runat="server" CssClass="auto-style41" Style="border-color: #000000; border-radius:4px; box-sizing:content-box; border-width: thin; z-index: 1; height: 20px; min-width: 250px;" Width="90%"  AutoPostBack="True" TabIndex="3"  OnSelectedIndexChanged="QuestionType_DropDownList_SelectedIndexChanged" ToolTip="Select question type">
+                                <asp:DropDownList ID="QuestionType_DropDownList" runat="server" CssClass="auto-style41" Style="border-color: #000000; border-radius:4px; box-sizing:content-box; border-width: thin; z-index: 1; height: 20px; min-width: 250px;" Width="99%"  AutoPostBack="True" TabIndex="3"  OnSelectedIndexChanged="QuestionType_DropDownList_SelectedIndexChanged" ToolTip="Select question type">
                                     <asp:ListItem>Slider</asp:ListItem>
                                     <asp:ListItem>Smiley</asp:ListItem>
                                     <asp:ListItem>Stars</asp:ListItem>

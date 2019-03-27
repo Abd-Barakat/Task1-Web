@@ -86,10 +86,13 @@ namespace Web
         /// </summary>
         private void Load_Database()//this method for update List box with data from database 
         {
+            if (!IsPostBack)
+            {
+                Create_Objects();
+            }
             try
             {
                 DatabaseListBox.Items.Clear();//clear list box from questions
-                Create_Objects();
                 foreach (Question question in questions)
                 {
                     DatabaseListBox.Items.Add(question.Question_text);
@@ -194,8 +197,10 @@ namespace Web
         /// <param name="e"></param>
         protected void AddButton_Click(object sender, EventArgs e)
         {
-           Session["IsEdit"] = false;
-            Page.ClientScript.RegisterClientScriptBlock(GetType(), "Add", "Add_dialog();", true);
+            Session["IsEdit"] = false;
+            QuestionAttributesFrame.Disabled = false;
+            ModalPopupExtender1.Enabled = true;
+            ModalPopupExtender1.Show();
         }
         /// <summary>
         /// create Question objects to manipulate them.
@@ -243,20 +248,20 @@ namespace Web
                 Alert(ex.Message, ex);
             }
         }
+    
         /// <summary>
         /// Initialize variables when page load
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-               
                 questions = new List<Question>();
                 Row_index = -1;
                 Row_count = 0;
-               
             }
             else
             {
@@ -272,5 +277,7 @@ namespace Web
                 Session["question"] = questions[Row_index];
             }
         }
+
+     
     }
 }
